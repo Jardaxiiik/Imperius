@@ -18,8 +18,4 @@ class ImperiusMain {
     Variables.StartChoice();
   }
   
-  public void StartHUD() {
-	  HUD c = new HUD();
-	  c.GUI();  
-  }
 }

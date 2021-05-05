@@ -12,10 +12,10 @@ public class VariablesClass {
 		public static String StartD;
 		public static int Zdroje1;
 		public static int Zdroje2;
-		public static int Z√°kladny1;
-		public static int Z√°kladny2;
-		public static int Arm√°da1;
-		public static int Arm√°da2;
+		public static int Z·kladny1;
+		public static int Z·kladny2;
+		public static int Arm·da1;
+		public static int Arm·da2;
 		public static int Technologie1;
 		public static int Technologie2;
 		public static int SpyBase1a;
@@ -27,19 +27,19 @@ public class VariablesClass {
 		public static int SpyTech1c;
 		public static int SpyArmy1a;
 		public static int SpyArmy1b;
-		public static int Nastaven√≠ZdrojeAI;
-		public static int Nastaven√≠Z√°kladnyAI;
-		public static int Nastaven√≠Arm√°daAI;
-		public static int Nastaven√≠TechAI;
-		public static int Arm√°da√ötok1a;
-		public static int Arm√°da√ötok1b;
-		public static int Arm√°da√ötok1c;
-		public static int Arm√°da√ötok2a;
-		public static int Arm√°da√ötok2b;
-		public static int Arm√°da√ötok2c;
-		public static int Arm√°daUNep≈ô√≠tele1;
-		public static int Arm√°daUNep≈ô√≠tele2;
-		public static int √ötokD√°l1;
+		public static int NastavenÌZdrojeAI;
+		public static int NastavenÌZ·kladnyAI;
+		public static int NastavenÌArm·daAI;
+		public static int NastavenÌTechAI;
+		public static int Arm·da⁄tok1a;
+		public static int Arm·da⁄tok1b;
+		public static int Arm·da⁄tok1c;
+		public static int Arm·da⁄tok2a;
+		public static int Arm·da⁄tok2b;
+		public static int Arm·da⁄tok2c;
+		public static int Arm·daUNep¯Ìtele1;
+		public static int Arm·daUNep¯Ìtele2;
+		public static int ⁄tokD·l1;
 		public static int ArmyGoBack1;
 		public static int NextTimeAI;
 		
@@ -59,13 +59,13 @@ public class VariablesClass {
 		  
 		  public void Rules() {
 			  try (Scanner NewObj = new Scanner(System.in)) {
-				System.out.println("PRAVIDLA: \n- Na zaƒç√°tku m√°≈° jednu z√°kladnu. Z√°kladna ti d√° ka≈æd√© kolo 1 zdroj. \n- Za sv√© zdroje si m≈Ø≈æe≈° ka≈æd√© kolo koupit arm√°du, technologii nebo dal≈°√≠ z√°kladnu.\n- Technologie zvy≈°uje v√Ωkon tv√© arm√°dy, hr√°ƒç, kter√Ω m√° 2 arm√°dy a 2 technologie m√° s√≠lu rovnou 4, hr√°ƒç kter√Ω m√° 1 arm√°du a technologii 3 m√° s√≠lu t≈ôi, atd... \n- Ka≈æd√© kolo m≈Ø≈æete ≈ô√≠ci sv√© arm√°dƒõ, co m√° dƒõlat. ≈†pion√°≈° v√°m d√° informace o nep≈ô√≠tely. Nep≈ô√≠tel zaƒç√≠n√° norm√°lnƒõ s jednou z√°kladnou jako vy (to se d√° zmƒõnit v nastaven√≠). \n- √ökol hry je zniƒçit v≈°echny nep≈ô√°telsk√© z√°kladny, to se d√° udƒõlat tak, ≈æe po≈°lete proti nep≈ô√≠tely svoj√≠ arm√°du - to ale trv√° dvƒõ kola.\n- Arm√°da norm√°lnƒõ hl√≠d√° va≈°e z√°kladny, tak≈æe mus√≠te p≈ôem√Ω≈°let kdy s arm√°dou vyraz√≠te na √∫tok.\n a)Vra≈• se zpƒõt do menu");
+				System.out.println("Pravidla: \n- Na zaË·tku m·ö jednu z·kladnu. Z·kladna ti d· kaûdÈ kolo 1 zdroj. \n- Za svÈ zdroje si m˘ûeö kaûdÈ kolo koupit arm·du, technologii nebo dalöÌ z·kladnu.\n- Technologie zvyöuje v˝kon tvÈ arm·dy, hr·Ë, kter˝ m· 2 arm·dy a 2 technologie m· sÌlu rovnou 4, hr·Ë kter˝ m· 1 arm·du a technologii 3 m· sÌlu t¯i, atd... \n- KaûdÈ kolo m˘ûete ¯Ìci svÈ arm·dÏ, co m· dÏlat. äpion·ö v·m d· informace o nep¯Ìtely. Nep¯Ìtel zaËÌn· norm·lnÏ s jednou z·kladnou jako vy (to se d· zmÏnit v nastavenÌ). \n- ⁄kol hry je zniËit vöechny nep¯·telskÈ z·kladny, to se d· udÏlat tak, ûe poölete proti nep¯Ìtely svojÌ arm·du - to ale trv· dvÏ kola.\n- Arm·da norm·lnÏ hlÌd· vaöe z·kladny, takûe musÌte p¯em˝ölet kdy s arm·dou vyrazÌte na ˙tok.\n a)Vraù se zpÏt do menu");
 				  String Typing = NewObj.nextLine();
 				  boolean JeA = Typing.equals(StartA);
 				  if (JeA == true) {
 					  StartChoice();
 				  } else {
-					  System.out.println("!!! ≈†patn√Ω vstup !!!");
+					  System.out.println("!!! äpatn˝ vstup !!!");
 					  Rules();
 				  }
 			}
@@ -74,13 +74,13 @@ public class VariablesClass {
 		  
 		  public void StartHry() {
 			Zdroje1 = 0;
-			Zdroje2 = 0 + Nastaven√≠ZdrojeAI;
-			Z√°kladny1 = 1;
-			Z√°kladny2 = 1 + Nastaven√≠Z√°kladnyAI;
-			Arm√°da1 = 0;
-			Arm√°da2 = 0 + Nastaven√≠Arm√°daAI;
+			Zdroje2 = 0 + NastavenÌZdrojeAI;
+			Z·kladny1 = 1;
+			Z·kladny2 = 1 + NastavenÌZ·kladnyAI;
+			Arm·da1 = 0;
+			Arm·da2 = 0 + NastavenÌArm·daAI;
 			Technologie1 = 1;
-			Technologie2 = 1 + Nastaven√≠TechAI;
+			Technologie2 = 1 + NastavenÌTechAI;
 			SpyBase1a = 0;
 			SpyBase1b = 0;
 			SpyTech1a =0;
@@ -88,41 +88,41 @@ public class VariablesClass {
 			SpyArmy1a =0;
 			SpyArmy1b =0;
 			TurnNum = 0;
-			Arm√°da√ötok1a = 0;
-			Arm√°da√ötok1b = 0;
-			Arm√°da√ötok1c = 0;
-			Arm√°da√ötok2a = 0;
-			Arm√°da√ötok2b = 0;
-			Arm√°da√ötok2c = 0;
-			√ötokD√°l1 = 0;
-			Arm√°daUNep≈ô√≠tele1 = 0;
-			Arm√°daUNep≈ô√≠tele2 = 0;
+			Arm·da⁄tok1a = 0;
+			Arm·da⁄tok1b = 0;
+			Arm·da⁄tok1c = 0;
+			Arm·da⁄tok2a = 0;
+			Arm·da⁄tok2b = 0;
+			Arm·da⁄tok2c = 0;
+			⁄tokD·l1 = 0;
+			Arm·daUNep¯Ìtele1 = 0;
+			Arm·daUNep¯Ìtele2 = 0;
 			ArmyGoBack1 = 0;
 			NextTimeAI = 0;
 			
 			
-			System.out.println("----------------\nHRA ZAƒå√çN√Å!\n");
-			AkceNaZaƒç√°tkuKola();
+			System.out.println("----------------\nHRA ZA»ÕN¡!\n");
+			AkceNaZaË·tkuKola();
 		  };
 		  
 		  public void SpyIter() {
 			  if (SpyBase1b > 0) {
-				  Arm√°da1 = Arm√°da1 + SpyBase1b;
-				  System.out.println("Tv≈Øj ≈°peh zjistil, ≈æe nep≈ô√≠tel m√° " + Z√°kladny2 + " Z√°kladen");
+				  Arm·da1 = Arm·da1 + SpyBase1b;
+				  System.out.println("Tv˘j öpeh zjistil, ûe nep¯Ìtel m· " + Z·kladny2 + " Z·kladen");
 			  };
 					SpyBase1b = SpyBase1a;
 					SpyBase1a = 0;
 					
 					if (SpyTech1b > 0) {
-						  Arm√°da1 = Arm√°da1 + SpyTech1b;
-						  System.out.println("Tv≈Øj ≈°peh zjistil, ≈æe nep≈ô√≠tel m√° " + Technologie2 + " V√Ω≈°ku Technologie");
+						  Arm·da1 = Arm·da1 + SpyTech1b;
+						  System.out.println("Tv˘j öpeh zjistil, ûe nep¯Ìtel m· " + Technologie2 + " V˝öku Technologie");
 					  };
 					SpyTech1b = SpyTech1a;
 					SpyTech1a = 0;
 							
 					if (SpyArmy1b > 0) {
-						  Arm√°da1 = Arm√°da1 + SpyArmy1b;
-						  HUD.StartInfoLabel.setText("Tv≈Øj ≈°peh zjistil, ≈æe nep≈ô√≠tel m√° " + Arm√°da2 + " Velikou arm√°du");
+						  Arm·da1 = Arm·da1 + SpyArmy1b;
+						  System.out.println("Tv˘j öpeh zjistil, ûe nep¯Ìtel m· " + Arm·da2 + " Velikou arm·du");
 					  };
 					SpyArmy1b = SpyArmy1a;
 					SpyArmy1a = 0;
@@ -132,195 +132,208 @@ public class VariablesClass {
 		  
 		  
 		  public void CheckForWin () {
-			  if (Z√°kladny1 == 0) {
-				  int armos = Arm√°daUNep≈ô√≠tele2 + Arm√°da2 + Arm√°da√ötok2a + Arm√°da√ötok2b + Arm√°da√ötok2c;
-				  System.out.println("Konec Hry!\n Prohr√°l si na pln√© ƒç√°≈ôe\n\nTv≈Øj nep≈ô√≠tel mƒõl "+ armos +" velikou celou arm√°du, mƒõl "+ Z√°kladny2 +" Z√°kladen, a jeho Technologie byla na √∫rovni " + Technologie2 + "\nTv≈Øj nep≈ô√≠tel mƒõl " + Zdroje2 + " Zdroj≈Ø");
+			  if (Z·kladny1 == 0) {
+				  int armos = Arm·daUNep¯Ìtele2 + Arm·da2 + Arm·da⁄tok2a + Arm·da⁄tok2b + Arm·da⁄tok2c;
+				  System.out.println("Konec Hry!\n Prohr·l si na plnÈ Ë·¯e\n\nTv˘j nep¯Ìtel mÏl "+ armos +" velikou celou arm·du, mÏl "+ Z·kladny2 +" Z·kladen, a jeho Technologie byla na ˙rovni " + Technologie2 + "\nTv˘j nep¯Ìtel mÏl " + Zdroje2 + " Zdroj˘");
 				  StartChoice();
 			  }
-			  if (Z√°kladny2 == 0) {
-				  int armos = Arm√°daUNep≈ô√≠tele1 + Arm√°da1 + Arm√°da√ötok1a + Arm√°da√ötok1b + Arm√°da√ötok1c;
-				  int armos2 = Arm√°daUNep≈ô√≠tele2 + Arm√°da2 + Arm√°da√ötok2a + Arm√°da√ötok2b + Arm√°da√ötok2c;
-				  System.out.println("Konec Hry!\n Vyhr√°l jsi na pln√© ƒç√°≈ôe\n\nMƒõl jsi "+ armos +" velikou arm√°du, mƒõl jsi "+ Z√°kladny1 +" Z√°kladny, a tvoje technologie byla na √∫rovni " + Technologie1 + "\nTv≈Øj nep≈ô√≠tel mƒõl "+ armos2 +" velikou celou arm√°du, mƒõl "+ Z√°kladny2 +" Z√°kladen, a jeho Technologie byla na √∫rovni " + Technologie2);
+			  if (Z·kladny2 == 0) {
+				  int armos = Arm·daUNep¯Ìtele1 + Arm·da1 + Arm·da⁄tok1a + Arm·da⁄tok1b + Arm·da⁄tok1c;
+				  int armos2 = Arm·daUNep¯Ìtele2 + Arm·da2 + Arm·da⁄tok2a + Arm·da⁄tok2b + Arm·da⁄tok2c;
+				  System.out.println("Konec Hry!\n Vyhr·l jsi na plnÈ Ë·¯e\n\nMÏl jsi "+ armos +" velikou arm·du, mÏl jsi "+ Z·kladny1 +" Z·kladny, a tvoje technologie byla na ˙rovni " + Technologie1 + "\nTv˘j nep¯Ìtel mÏl "+ armos2 +" velikou celou arm·du, mÏl "+ Z·kladny2 +" Z·kladen, a jeho Technologie byla na ˙rovni " + Technologie2);
 				  StartChoice();
 			  }
 		  };
-		  public void AkceNaZaƒç√°tkuKola() {
+		  public void AkceNaZaË·tkuKola() {
 			  
-			  if (Arm√°daUNep≈ô√≠tele1 == 0) {
-				if (Arm√°da√ötok1c >0) {
-					√ötokD√°l1 = 1;
+			  if (Arm·daUNep¯Ìtele1 == 0) {
+				if (Arm·da⁄tok1c >0) {
+					⁄tokD·l1 = 1;
 				};
 			  };
 			  
-			  Arm√°daUNep≈ô√≠tele1 = Arm√°da√ötok1c + Arm√°daUNep≈ô√≠tele1;
-			  Arm√°da√ötok1c = Arm√°da√ötok1b;
-			  Arm√°da√ötok1b = Arm√°da√ötok1a;
-			  Arm√°da√ötok1a = 0;
-			  Arm√°daUNep≈ô√≠tele2 =  Arm√°daUNep≈ô√≠tele2 + Arm√°da√ötok2c;
-			  Arm√°da√ötok2c = Arm√°da√ötok2b;
-			  Arm√°da√ötok2b = Arm√°da√ötok2a;
-			  Arm√°da√ötok2a = 0;
-			  Arm√°da1 = Arm√°da1 + ArmyGoBack1;
+			  Arm·daUNep¯Ìtele1 = Arm·da⁄tok1c + Arm·daUNep¯Ìtele1;
+			  Arm·da⁄tok1c = Arm·da⁄tok1b;
+			  Arm·da⁄tok1b = Arm·da⁄tok1a;
+			  Arm·da⁄tok1a = 0;
+			  Arm·daUNep¯Ìtele2 =  Arm·daUNep¯Ìtele2 + Arm·da⁄tok2c;
+			  Arm·da⁄tok2c = Arm·da⁄tok2b;
+			  Arm·da⁄tok2b = Arm·da⁄tok2a;
+			  Arm·da⁄tok2a = 0;
+			  Arm·da1 = Arm·da1 + ArmyGoBack1;
 			  ArmyGoBack1 = 0;
 			  
-			  if (Arm√°daUNep≈ô√≠tele1 > 0) {
-				  if (√ötokD√°l1 == 1) {
-					  int x = Arm√°daUNep≈ô√≠tele1*Technologie1;
-					  int y = Arm√°da2 * Technologie2;
+			  if (Arm·daUNep¯Ìtele1 > 0) {
+				  if (⁄tokD·l1 == 1) {
+					  int x = Arm·daUNep¯Ìtele1*Technologie1;
+					  int y = Arm·da2 * Technologie2;
 					  if (x>y) {
-						  Arm√°da2 = 0;
-						  int ztr√°ty = Arm√°daUNep≈ô√≠tele1; 
-						  Arm√°daUNep≈ô√≠tele1 = Math.round((x - y)/ Technologie1);
-						  Z√°kladny2 = Z√°kladny2 - 1;
-						  int Ztr√°tyFull = ztr√°ty - Arm√°daUNep≈ô√≠tele1;
-						  System.out.println("Tv√° √ötoƒçn√° Arm√°da pr√°vƒõ vyhr√°la boj a zniƒçila nep≈ô√°telskou z√°kladnu. Ztr√°ty: " + Ztr√°tyFull);
+						  Arm·da2 = 0;
+						  int ztr·ty = Arm·daUNep¯Ìtele1; 
+						  Arm·daUNep¯Ìtele1 = Math.round((x - y)/ Technologie1);
+						  Z·kladny2 = Z·kladny2 - 1;
+						  int Ztr·tyFull = ztr·ty - Arm·daUNep¯Ìtele1;
+						  System.out.println("Tv· ⁄toËn· Arm·da pr·vÏ vyhr·la boj a zniËila nep¯·telskou z·kladnu. Ztr·ty: " + Ztr·tyFull);
 					  } else {
-						  Arm√°daUNep≈ô√≠tele1 = 0;
-						  Arm√°da2 = Math.round((y - x)/Technologie2);
-						  System.out.println("Tv√° √ötoƒçn√° Arm√°da pr√°vƒõ prohr√°la boj o nep≈ô√°telskou z√°kladnu a byla zniƒçena");
+						  Arm·daUNep¯Ìtele1 = 0;
+						  Arm·da2 = Math.round((y - x)/Technologie2);
+						  System.out.println("Tv· ⁄toËn· Arm·da pr·vÏ prohr·la boj o nep¯·telskou z·kladnu a byla zniËena");
 					  };
 				  };
 			  };
-			 if (Arm√°daUNep≈ô√≠tele2 > 0) {
-					  int x = Arm√°da1*Technologie1;
-					  int y = Arm√°daUNep≈ô√≠tele2 * Technologie2;
+			 if (Arm·daUNep¯Ìtele2 > 0) {
+					  int x = Arm·da1*Technologie1;
+					  int y = Arm·daUNep¯Ìtele2 * Technologie2;
 					  if (x>=y) {
-						  Arm√°daUNep≈ô√≠tele2 = 0;
-						  int ztr√°ty = Arm√°da1; 
-						  Arm√°da1 = Math.round((x - y)/ Technologie1);
-						  int Ztr√°tyFull = ztr√°ty - Arm√°da1;
-						  System.out.println("Tv√° Obrann√° Arm√°da pr√°vƒõ √∫spƒõ≈°nƒõ odrazila nep≈ô√°telsk√Ω √∫tok! Tv√© Ztr√°ty: " + Ztr√°tyFull);
+						  Arm·daUNep¯Ìtele2 = 0;
+						  int ztr·ty = Arm·da1; 
+						  Arm·da1 = Math.round((x - y)/ Technologie1);
+						  int Ztr·tyFull = ztr·ty - Arm·da1;
+						  System.out.println("Tv· Obrann· Arm·da pr·vÏ ˙spÏönÏ odrazila nep¯·telsk˝ ˙tok! TvÈ Ztr·ty: " + Ztr·tyFull);
 					  } else {
-						  Arm√°da1 = 0;
-						  Z√°kladny1 = Z√°kladny1 - 1;
-						  Arm√°daUNep≈ô√≠tele2 = Math.round((y - x)/Technologie2);
-						  System.out.println("Tv√° Obrann√° Arm√°da pr√°vƒõ prohr√°la boj o tvoji z√°kladnu. Z√°kladna byla zniƒçena a tvoje obrana t√©≈æ.");
+						  Arm·da1 = 0;
+						  Z·kladny1 = Z·kladny1 - 1;
+						  Arm·daUNep¯Ìtele2 = Math.round((y - x)/Technologie2);
+						  System.out.println("Tv· Obrann· Arm·da pr·vÏ prohr·la boj o tvoji z·kladnu. Z·kladna byla zniËena a tvoje obrana tÈû.");
 				};
 			};
 				CheckForWin();
 				
-				Zdroje1 = Z√°kladny1 + Zdroje1;
-				Zdroje2 = Z√°kladny2 + Zdroje2;
+				Zdroje1 = Z·kladny1 + Zdroje1;
+				Zdroje2 = Z·kladny2 + Zdroje2;
 				
 				SpyIter();
 				TurnNum = TurnNum + 1;
-				System.out.println("---------- \nZaƒç√≠n√° "+ TurnNum + " Kolo");
-				N√°kup();
+				System.out.println("---------- \nZaËÌn· "+ TurnNum + " Kolo");
+				N·kup();
 			  };
 			  
-			  public void N√°kupArm√°dy() {
+			  public void N·kupArm·dy() {
 				  Scanner NewObj = new Scanner(System.in);
-					System.out.println("Tv√© zdroje: " + Zdroje1 + "\n Pokud nechce≈° kupovat, zadej ƒç√≠slo 0 \nNapi≈° poƒçet Obrann√© Arm√°dy, co chce≈° koupit (1 Zdroj = 1 Arm√°da)");
+					System.out.println("TvÈ zdroje: " + Zdroje1 + "\n Pokud nechceö kupovat, zadej ËÌslo 0 \nNapiö poËet ObrannÈ Arm·dy, co chceö koupit (1 Zdroj = 1 Arm·da)");
 					  String StringS = NewObj.nextLine();
+					  if(StringS.isEmpty()==true) {
+						  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+					    	N·kup();
+					  };
 					    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 					    if(isNumeric == false) {
-					    	System.out.println("!!! "+ StringS +" vrac√≠te se zpƒõt !!!");
-					    	N√°kup();
-					    };
+					    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+					    	N·kup();
+					    } else {
 					    int num = Integer.parseInt(StringS);
 					    
 					  if (num > Zdroje1) {
-						  System.out.println("!!! M√°lo Zdroj≈Ø !!!");
-						  N√°kup();
+						  System.out.println("!!! M·lo Zdroj˘ !!!");
+						  N·kup();
 					  } else if (num < 1){
-						  System.out.println("!!! Chybn√© ƒç√≠slo !!!");
-						  N√°kup();
+						  System.out.println("!!! ChybnÈ ËÌslo !!!");
+						  N·kup();
 						  
 					  } else {
-						Arm√°da1 = Arm√°da1 + num;
+						Arm·da1 = Arm·da1 + num;
 						Zdroje1 = Zdroje1 - num;
-						N√°kup();
+						N·kup();
 					  }
 					  NewObj.close();
+					    }
 			  };
-			  public void N√°kupZ√°kladny() {
-				  int Cost = Z√°kladny1*2;
+			  public void N·kupZ·kladny() {
+				  int Cost = Z·kladny1*2;
 		            int num = 1;
 			        int k = num*Cost;
 				  if (k > Zdroje1) {
-					  System.out.println("!!! M√°lo Zdroj≈Ø !!!");
-					  N√°kup();
+					  System.out.println("!!! M·lo Zdroj˘ !!!");
+					  N·kup();
 				  } else if (num < 1){
-					  System.out.println("!!! Chybn√© ƒç√≠slo !!!");
-					  N√°kup();
+					  System.out.println("!!! ChybnÈ ËÌslo !!!");
+					  N·kup();
 					  
 				  } else {
 					Zdroje1 = Zdroje1 - num*Cost;
-					Z√°kladny1 = Z√°kladny1 + num;
+					Z·kladny1 = Z·kladny1 + num;
 					
-					N√°kup();
+					N·kup();
 				  };
 			  };
-			  public void N√°kupTechnologie() {
+			  public void N·kupTechnologie() {
 				  Scanner NewObj = new Scanner(System.in);
-					System.out.println("Tv√© zdroje: " + Zdroje1 + "\nTv√© technologie: "+ Technologie1 +"\n Pokud nechce≈° kupovat, zadej ƒç√≠slo 0\n Napi≈° poƒçet Technologii, co chce≈° koupit (1 technologie = 2 Zdroje) ");
+					System.out.println("TvÈ zdroje: " + Zdroje1 + "\nTvÈ technologie: "+ Technologie1 +"\n Pokud nechceö kupovat, zadej ËÌslo 0\n Napiö poËet Technologii, co chceö koupit (1 technologie = 2 Zdroje) ");
 					  String StringS = NewObj.nextLine();
+					  if(StringS.isEmpty()==true) {
+						  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+					    	N·kup();
+					  };
 					    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 					    if(isNumeric == false) {
-					    	System.out.println("!!! "+ StringS +" vrac√≠te se zpƒõt !!!");
-					    	N√°kup();
+					    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+					    	N·kup();
 					    };
 					    int num = Integer.parseInt(StringS);
 					    int Cost = num*2;
 					  if (Cost > Zdroje1) {
-						  System.out.println("!!! M√°lo Zdroj≈Ø !!!");
-						  N√°kup();
+						  System.out.println("!!! M·lo Zdroj˘ !!!");
+						  N·kup();
 					  } else if (num < 1){
-						  System.out.println("!!! Chybn√© ƒç√≠slo !!!");
-						  N√°kup();
+						  System.out.println("!!! ChybnÈ ËÌslo !!!");
+						  N·kup();
 						  
 					  } else {
 						Technologie1 = Technologie1 + num;
 						Zdroje1 = Zdroje1 - Cost;
-						N√°kup();
+						N·kup();
 					  }
 				NewObj.close();
 			  };
 			  
-			  public void N√°kup() {
+			  public void N·kup() {
 				 Scanner NewObj = new Scanner(System.in);
-					int Cost = Z√°kladny1*2;
-					  System.out.println("\n- F√°ze N√°kup≈Ø \nZdroje: "+ Zdroje1 +"     \na) N√°kup Arm√°dy (Tv√° arm√°da:"+ Arm√°da1 +") \nb) N√°kup jedn√© z√°kladny za "+ Cost +" Zdroj≈Ø (Tv√© z√°kladny: "+ Z√°kladny1 +") \nc) N√°kup technologie (tv√° technologie: "+ Technologie1 +")\nd) u≈æ ≈æ√°dn√© n√°kupy");
+					int Cost = Z·kladny1*2;
+					  System.out.println("\n- F·ze N·kup˘ \nZdroje: "+ Zdroje1 +"     \na) N·kup Arm·dy (Tv· arm·da:"+ Arm·da1 +") \nb) N·kup jednÈ z·kladny za "+ Cost +" Zdroj˘ (TvÈ z·kladny: "+ Z·kladny1 +") \nc) N·kup technologie (tv· technologie: "+ Technologie1 +")\nd) uû û·dnÈ n·kupy");
 					  String Typing = NewObj.nextLine();
 					  boolean JeA = Typing.equals(StartA);
 					  boolean JeB = Typing.equals(StartB);
 					  boolean JeC = Typing.equals(StartC);
 					  boolean JeD = Typing.equals(StartD);
 					  if (JeA == true) {
-						  N√°kupArm√°dy();
+						  N·kupArm·dy();
 					  } else if (JeB == true) {
-						  N√°kupZ√°kladny();
+						  N·kupZ·kladny();
 					  } else if(JeC == true) {
-						  N√°kupTechnologie();
+						  N·kupTechnologie();
 					  } else if(JeD == true) {
 							 ArmyMovement();	  
 					  } else {
-						  System.out.println("!!! ≈†patn√Ω vstup !!!");
-						  N√°kup();
+						  System.out.println("!!! äpatn˝ vstup !!!");
+						  N·kup();
 					  }
 					  NewObj.close();
 			  };
-			  public void Vy≈°liArm√°du() {
+			  public void VyöliArm·du() {
 				  Scanner NewObj = new Scanner(System.in);
-					System.out.println("Tv√° Obrann√° Arm√°da: " + Arm√°da1 + " \n Pokud nechce≈° pos√≠lat nic, zadej ƒç√≠slo 0 \nNapi≈° poƒçet Obrann√© Arm√°dy, co chce≈° poslat k nep≈ô√≠teli (arm√°da se tam obƒõv√≠ a≈æ za 2 kola) ");
+					System.out.println("Tv· Obrann· Arm·da: " + Arm·da1 + " \n Pokud nechceö posÌlat nic, zadej ËÌslo 0 \nNapiö poËet ObrannÈ Arm·dy, co chceö poslat k nep¯Ìteli (arm·da se tam obÏvÌ aû za 2 kola) ");
 					  String StringS = NewObj.nextLine();
+					  if(StringS.isEmpty()==true) {
+						  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+						  ArmyMovement();
+					  };
 					    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 					    if(isNumeric == false) {
-					    	System.out.println("!!! "+ StringS +" vrac√≠te se zpƒõt !!!");
+					    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
 					    	ArmyMovement();
 					    };
 					    int num = Integer.parseInt(StringS);
 					    
 					  if (num < 1) {
-						   System.out.println("!!! ≈†patn√Ω vstup !!!");
+						   System.out.println("!!! äpatn˝ vstup !!!");
 							  ArmyMovement();
-					  } else if (num > Arm√°da1) {
-						  System.out.println("!!! Nedostatek arm√°dy !!!");
+					  } else if (num > Arm·da1) {
+						  System.out.println("!!! Nedostatek arm·dy !!!");
 						  ArmyMovement();
 					  } else {
-						  System.out.println("Vyslal jsi "+ num + "Arm√°dy na √∫tok");
-						  Arm√°da√ötok1a = Arm√°da√ötok1a + num;
-						  Arm√°da1 = Arm√°da1 - num;
+						  System.out.println("Vyslal jsi "+ num + "Arm·dy na ˙tok");
+						  Arm·da⁄tok1a = Arm·da⁄tok1a + num;
+						  Arm·da1 = Arm·da1 - num;
 						  ArmyMovement();
 					  }
 					  NewObj.close();
@@ -328,24 +341,28 @@ public class VariablesClass {
 			  
 			  	public void SpyBaseSent() {
 			  		Scanner NewObj = new Scanner(System.in);
-						System.out.println("Tv√° Obrann√° Arm√°da: " + Arm√°da1 + "\nNapi≈° poƒçet ≈°pion≈Ø Z√°kladen, kolik jich chce≈° vyslat (1 ≈†pion = 1 Arm√°da)");
+						System.out.println("Tv· Obrann· Arm·da: " + Arm·da1 + "\nNapiö poËet öpion˘ Z·kladen, kolik jich chceö vyslat (1 äpion = 1 Arm·da)");
 						  String StringS = NewObj.nextLine();
+						  if(StringS.isEmpty()==true) {
+							  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+							  SentSpyes();
+						  };
 						    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 						    if(isNumeric == false) {
-						    	System.out.println("!!! "+ StringS +" vrac√≠te se zpƒõt !!!");
+						    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
 						    	SentSpyes();
 						    };
 						    int num = Integer.parseInt(StringS);
 						   
-						  if (num < 0) {
-							  System.out.println("!!! ≈†patn√Ω vstup !!!");
+						  if (num < 0 && num <= 1000000) {
+							  System.out.println("!!! äpatn˝ vstup !!!");
 							  SentSpyes();
-						  } else if (num > Arm√°da1) {
-							  System.out.println("!!! Moc vysok√© ƒç√≠slo !!!");
+						  } else if (num > Arm·da1) {
+							  System.out.println("!!! Moc vysokÈ ËÌslo !!!");
 							  SpyBaseSent();
 						  } else {
 							  SpyBase1a = SpyBase1a + 1;
-							  Arm√°da1 = Arm√°da1 - num;
+							  Arm·da1 = Arm·da1 - num;
 							  SentSpyes();
 								  }
 						  NewObj.close();
@@ -354,48 +371,56 @@ public class VariablesClass {
 			  		};
 			  	public void SpyTechSent() {
 			  		Scanner NewObj = new Scanner(System.in);
-						System.out.println("Tv√° Obrann√° Arm√°da: " + Arm√°da1 + " \nNapi≈° poƒçet ≈°pion≈Ø Technologi√≠, kolik jich chce≈° vyslat (1 ≈†pion = 1 Arm√°da)");
+						System.out.println("Tv· Obrann· Arm·da: " + Arm·da1 + " \nNapiö poËet öpion˘ TechnologiÌ, kolik jich chceö vyslat (1 äpion = 1 Arm·da)");
 						  String StringS = NewObj.nextLine();
+						  if(StringS.isEmpty()==true) {
+							  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+							  SentSpyes();
+						  };
 						    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 						    if(isNumeric == false) {
-						    	System.out.println("!!! "+ StringS +" vrac√≠te se zpƒõt !!!");
+						    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
 						    	SentSpyes();
 						    };
 						    int num = Integer.parseInt(StringS);
 						   
-						  if (num < 0) {
-							  System.out.println("!!! ≈†patn√Ω vstup !!!");
+						  if (num < 0 && num <= 1000000) {
+							  System.out.println("!!! äpatn˝ vstup !!!");
 							  SentSpyes();
-						  } else if (num > Arm√°da1) {
-							  System.out.println("!!! Moc vysok√© ƒç√≠slo !!!");
+						  } else if (num > Arm·da1) {
+							  System.out.println("!!! Moc vysokÈ ËÌslo !!!");
 							  SpyTechSent();
 						  } else {
 							  SpyTech1a = SpyTech1a + 1;
-							  Arm√°da1 = Arm√°da1 - num;
+							  Arm·da1 = Arm·da1 - num;
 							  SentSpyes();
 								  }
 						  NewObj.close();
 			  };
 			  	public void SpyArmySent() {
 			  			Scanner NewObj = new Scanner(System.in);
-							System.out.println("Tv√° Obrann√° Arm√°da: " + Arm√°da1 + " \nNapi≈° poƒçet ≈°pion≈Ø Arm√°d, kolik jich chce≈° vyslat (1 ≈†pion = 1 Arm√°da)");
+							System.out.println("Tv· Obrann· Arm·da: " + Arm·da1 + " \nNapiö poËet öpion˘ Arm·d, kolik jich chceö vyslat (1 äpion = 1 Arm·da)");
 							String StringS = NewObj.nextLine();
+							if(StringS.isEmpty()==true) {
+								  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+								  SentSpyes();
+							  };
 							boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 							if(isNumeric == false) {
-								System.out.println("!!! "+ StringS +" vrac√≠te se zpƒõt !!!");
+								System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
 								SentSpyes();
 							};
 							int num = Integer.parseInt(StringS);
 								
-  if (num < 0) {
-							  System.out.println("!!! "+ num +" vrac√≠te se zpƒõt !!!");
+  if (num < 0 && num <= 1000000) {
+							  System.out.println("!!! "+ num +" vracÌte se zpÏt !!!");
 							  SentSpyes();
-  } else if (num > Arm√°da1) {
-							  System.out.println("!!! Nedostatek Arm√°dy !!!");
+  } else if (num > Arm·da1) {
+							  System.out.println("!!! Nedostatek Arm·dy !!!");
 							  SpyTechSent();
   } else {
 							  SpyArmy1a = SpyArmy1a + 1;
-							  Arm√°da1 = Arm√°da1 - num;
+							  Arm·da1 = Arm·da1 - num;
 							  SentSpyes();
 								  }
   NewObj.close();
@@ -403,10 +428,10 @@ public class VariablesClass {
 			  
 			  public void SentSpyes() {
 				  Scanner NewObj = new Scanner(System.in);
-					int SpyesZ√°kladny = SpyBase1a + SpyBase1b;
+					int SpyesZ·kladny = SpyBase1a + SpyBase1b;
 					 int SpyesTech = SpyTech1a + SpyTech1b;
 					 int SpyesArmy = SpyArmy1a + SpyArmy1b;
-					  System.out.println("\n- ≈†pioni \n≈†pioni Z√°kladen: " + SpyesZ√°kladny + " \n≈†pioni Technologi√≠: " + SpyesTech + " \n≈†pioni nep≈ô√°telsk√© Arm√°dy: "+ SpyesArmy +" \na) Vy≈°li ≈†piony Z√°kladen \nb) Vy≈°li ≈°piony technologi√≠ \nc) Vy≈°li ≈°piony Arm√°d \nd) Vra≈• se zp√°tky");
+					  System.out.println("\n- äpioni \näpioni Z·kladen: " + SpyesZ·kladny + " \näpioni TechnologiÌ: " + SpyesTech + " \näpioni nep¯·telskÈ Arm·dy: "+ SpyesArmy +" \na) Vyöli äpiony Z·kladen \nb) Vyöli öpiony technologiÌ \nc) Vyöli öpiony Arm·d \nd) Vraù se zp·tky");
 					  String Typing = NewObj.nextLine();
 					  boolean JeA = Typing.equals(StartA);
 					  boolean JeB = Typing.equals(StartB);
@@ -421,7 +446,7 @@ public class VariablesClass {
 					  }	else if(JeD == true) {
 							ArmyMovement();
 					  } else {
-						  System.out.println("!!! ≈†patn√Ω vstup !!!");
+						  System.out.println("!!! äpatn˝ vstup !!!");
 						  SentSpyes();
 					  }
 					  NewObj.close();
@@ -429,52 +454,52 @@ public class VariablesClass {
 			  
 		 public void ArmyMovement() {
 			 Scanner NewObj = new Scanner(System.in);
-				int Arm√°dak = Arm√°da√ötok1a + Arm√°da√ötok1b + Arm√°da√ötok1c;
-				  System.out.println("\n- Pohyb Arm√°dy \nObrann√° Arm√°da doma: "+ Arm√°da1 +"\n√ötoƒçn√° Arm√°da u nep≈ô√≠tele: "+ Arm√°daUNep≈ô√≠tele1 +"\n√ötoƒçn√° Arm√°da m√≠≈ô√≠c√≠ k nep≈ô√≠tely: "+ Arm√°dak +" \na) po≈°li Obrannou Arm√°du k nep≈ô√≠tely \nb) Vy≈°li ≈°piony \nc) Nechce≈° nic dƒõlat");
+				int Arm·dak = Arm·da⁄tok1a + Arm·da⁄tok1b + Arm·da⁄tok1c;
+				  System.out.println("\n- Pohyb Arm·dy \nObrann· Arm·da doma: "+ Arm·da1 +"\n⁄toËn· Arm·da u nep¯Ìtele: "+ Arm·daUNep¯Ìtele1 +"\n⁄toËn· Arm·da mÌ¯ÌcÌ k nep¯Ìtely: "+ Arm·dak +" \na) poöli Obrannou Arm·du k nep¯Ìtely \nb) Vyöli öpiony \nc) Nechceö nic dÏlat");
 				  String Typing = NewObj.nextLine();
 				  boolean JeA = Typing.equals(StartA);
 				  boolean JeB = Typing.equals(StartB);
 				  boolean JeC = Typing.equals(StartC);
 				  if (JeA == true) {
-					  Vy≈°liArm√°du();
+					  VyöliArm·du();
 				  } else if (JeB == true) {
 					  SentSpyes();
 				  } else if(JeC == true) {
 					  ArmyInEnemyBase();
 				  } else {
-					  System.out.println("!!! ≈†patn√Ω vstup !!!");
+					  System.out.println("!!! äpatn˝ vstup !!!");
 					  ArmyMovement();
 				  }
 				  NewObj.close();
 		 };
 		 
 		  public void ArmyInEnemyBase() {
-			  int armada = Arm√°daUNep≈ô√≠tele1 + Arm√°da√ötok1a + Arm√°da√ötok1b; 
-			  if (Arm√°daUNep≈ô√≠tele1 > armada) {
+			  int armada = Arm·daUNep¯Ìtele1 + Arm·da⁄tok1a + Arm·da⁄tok1b; 
+			  if (Arm·daUNep¯Ìtele1 > armada) {
 				  	Scanner NewObj = new Scanner(System.in);
-					 int Arm√°dak = Arm√°da√ötok1a + Arm√°da√ötok1b + Arm√°da√ötok1c;
-					  System.out.println("\n-  √ötoƒçn√° Arm√°da U nep≈ô√≠tele: "+ Arm√°daUNep≈ô√≠tele1 +"\n- √ötoƒçn√° Arm√°da m√≠≈ô√≠c√≠ k nep≈ô√≠tely: "+ Arm√°dak +" \na) Po≈°li v≈°echnu Arm√°du Zp√°tky Dom≈Ø \nb) Za√∫toƒç na dal≈°√≠ z√°kladnu \nc) nechce≈° nic dƒõlat");
+					 int Arm·dak = Arm·da⁄tok1a + Arm·da⁄tok1b + Arm·da⁄tok1c;
+					  System.out.println("\n-  ⁄toËn· Arm·da U nep¯Ìtele: "+ Arm·daUNep¯Ìtele1 +"\n- ⁄toËn· Arm·da mÌ¯ÌcÌ k nep¯Ìtely: "+ Arm·dak +" \na) Poöli vöechnu Arm·du Zp·tky Dom˘ \nb) Za˙toË na dalöÌ z·kladnu \nc) nechceö nic dÏlat");
 					  String Typing = NewObj.nextLine();
 					  boolean JeA = Typing.equals(StartA);
 					  boolean JeB = Typing.equals(StartB);
 					  boolean JeC = Typing.equals(StartC);
 					  
 					  if (JeA == true) {
-						  ArmyGoBack1 = Arm√°dak + Arm√°daUNep≈ô√≠tele1;
-						  Arm√°daUNep≈ô√≠tele1 = 0;
-						  Arm√°da√ötok1a = 0;
-						  Arm√°da√ötok1b = 0;
+						  ArmyGoBack1 = Arm·dak + Arm·daUNep¯Ìtele1;
+						  Arm·daUNep¯Ìtele1 = 0;
+						  Arm·da⁄tok1a = 0;
+						  Arm·da⁄tok1b = 0;
 						  
-						  √ötokD√°l1 = 0;
+						  ⁄tokD·l1 = 0;
 						  AIPlay();
 					  } else if (JeB == true) {
-						  √ötokD√°l1 = 1;
+						  ⁄tokD·l1 = 1;
 						  AIPlay();
 					  } else if(JeC == true) {
-						  √ötokD√°l1 = 0;
+						  ⁄tokD·l1 = 0;
 						  AIPlay();
 					  } else {
-						  System.out.println("≈†patnƒõ");
+						  System.out.println("äpatnÏ");
 						  ArmyInEnemyBase();
 					  };
 					  NewObj.close();
@@ -494,18 +519,18 @@ public class VariablesClass {
 
 
 		public void AIPlay() {
-			int Cost = Z√°kladny2*2;
-			int roundedNumber = (int) ((int) (Z√°kladny2-1)*0.5);
-			if (Arm√°daUNep≈ô√≠tele1 == 0) {
+			int Cost = Z·kladny2*2;
+			int roundedNumber = (int) ((int) (Z·kladny2-1)*0.5);
+			if (Arm·daUNep¯Ìtele1 == 0) {
 				if ( Zdroje2 >= Cost) {
 					Zdroje2 = Zdroje2 - Cost;
-					Z√°kladny2 = Z√°kladny2 + 1;
+					Z·kladny2 = Z·kladny2 + 1;
 				} else {
 				int Z = getRandomNumberInRange(roundedNumber, Zdroje2);
 				int a = getRandomNumberInRange(1, 10);
 				Zdroje2 = Zdroje2 - Z;
 				if (a >= 4) {
-					Arm√°da2 = Arm√°da2 + Z;
+					Arm·da2 = Arm·da2 + Z;
 						
 				} else {
 					Technologie2 = Technologie2 + Math.round(Z/2);
@@ -515,7 +540,7 @@ public class VariablesClass {
 				} else {
 					int Z = getRandomNumberInRange(roundedNumber, Zdroje2);
 					Zdroje2 = Zdroje2 - Z;
-					Arm√°da2 = Arm√°da2 + Z;
+					Arm·da2 = Arm·da2 + Z;
 					
 			};
 			AIMove();
@@ -523,62 +548,92 @@ public class VariablesClass {
 
 		public void AIMove() {
 			int a = getRandomNumberInRange(1, 5);
-			if (a == 5 && Arm√°daUNep≈ô√≠tele1 == 0) {
-				Arm√°da√ötok2a = Arm√°da2;
-				Arm√°da2 = 0;
+			if (a == 5 && Arm·daUNep¯Ìtele1 == 0) {
+				Arm·da⁄tok2a = Arm·da2;
+				Arm·da2 = 0;
 			};
-			AkceNaZaƒç√°tkuKola();
+			AkceNaZaË·tkuKola();
 		};
 		  
-		  public void Zmƒõ≈àZ√°kladny() {
+		  public void ZmÏÚZ·kladny() {
 			 Scanner NewObj = new Scanner(System.in);
-				System.out.println("Napi≈° poƒçet z√°kladen, o kolik by mƒõl m√≠t nep≈ô√≠tel v√≠c, ne≈æ vy na zaƒç√°tku hry (" + Nastaven√≠Z√°kladnyAI + ")");
-				  int num = NewObj.nextInt();
+				System.out.println("Napiö poËet z·kladen, o kolik by mÏl mÌt nep¯Ìtel vÌc, neû vy na zaË·tku hry (" + NastavenÌZ·kladnyAI + ")");
+				String StringS = NewObj.nextLine();
+				  if(StringS.isEmpty()==true) {
+					  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+					  NastavenÌ();
+				  };
+				   boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
+				   if(isNumeric == false) {
+				    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+				    	NastavenÌ();
+				    }
+				   int num = Integer.parseInt(StringS);
 				   
-				  if (num >= 0) {
-					   Nastaven√≠Z√°kladnyAI = num;
-					   Nastaven√≠();
+				  if (num > 0 && num <= 1000000) {
+					   NastavenÌZ·kladnyAI = num;
+					   NastavenÌ();
 				  } else {
-					  System.out.println("!!! ≈†patn√Ω vstup !!!");
-					  Nastaven√≠();
+					  System.out.println("!!! äpatn˝ vstup !!!");
+					  NastavenÌ();
 				  }
 				  NewObj.close();
 		  };
-		  public void Zmƒõ≈àArm√°du() {
+		  public void ZmÏÚArm·du() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Napi≈° poƒçet z√°kladen, o kolik by mƒõl m√≠t nep≈ô√≠tel v√≠c, ne≈æ vy na zaƒç√°tku hry (" + Nastaven√≠Arm√°daAI + ")");
-				  int num = NewObj.nextInt();
+				System.out.println("Napiö poËet z·kladen, o kolik by mÏl mÌt nep¯Ìtel vÌc, neû vy na zaË·tku hry (" + NastavenÌArm·daAI + ")");
+				String StringS = NewObj.nextLine();
+				  if(StringS.isEmpty()==true) {
+					  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+					  NastavenÌ();
+				  };
+				   boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
+				   if(isNumeric == false) {
+				    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+				    	NastavenÌ();
+				    }
+				   int num = Integer.parseInt(StringS);
 				    
 				  if (num >= 0) {
-					   Nastaven√≠Arm√°daAI = num;
-					   Nastaven√≠();
+					   NastavenÌArm·daAI = num;
+					   NastavenÌ();
 				  } else {
-					  System.out.println("!!! ≈†patn√Ω vstup !!!");
-					  Nastaven√≠();
+					  System.out.println("!!! äpatn˝ vstup !!!");
+					  NastavenÌ();
 				  }
 				  NewObj.close();
 			  
 		  };
-		  public void Zmƒõ≈àTech() {
+		  public void ZmÏÚTech() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Napi≈° v√Ω≈°i technologie, o kterou bude m√≠t nep≈ô√≠tel v√≠c ne≈æ vy na zaƒç√°tku hry (" + Nastaven√≠TechAI + ")");
-				  int num = NewObj.nextInt();
-				    
-				  if (num >= 0) {
-					   Nastaven√≠TechAI = num;
-					   Nastaven√≠();
+				System.out.println("Napiö v˝öi technologie, o kterou bude mÌt nep¯Ìtel vÌc neû vy na zaË·tku hry (" + NastavenÌTechAI + ")");
+				String StringS = NewObj.nextLine();
+				  if(StringS.isEmpty()==true) {
+					  System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+					  NastavenÌ();
+				  };
+				   boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
+				   if(isNumeric == false) {
+				    	System.out.println("!!! "+ StringS +" vracÌte se zpÏt !!!");
+				    	NastavenÌ();
+				    }
+				   int num = Integer.parseInt(StringS);
+
+				  if (num > 0 && num <= 1000000) {
+					   NastavenÌTechAI = num;
+					   NastavenÌ();
 				  } else {
-					  System.out.println("!!! ≈†patn√Ω vstup !!!");
-					  Zmƒõ≈àTech();
+					  System.out.println("!!! äpatn˝ vstup !!!");
+					  ZmÏÚTech();
 				  }
 				  NewObj.close();
 			};
 			  
 
 		  
-		  public void Nastaven√≠() {
+		  public void NastavenÌ() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Nastaven√≠:\na)Zmƒõ≈à poƒçet z√°kladen protivn√≠ka na zaƒç√°tku (" + Nastaven√≠Z√°kladnyAI + ") \nb)Zmƒõ≈à arm√°du nep≈ô√≠tele na zaƒç√°tku (" + Nastaven√≠Arm√°daAI + ") \nc)Zmƒõ≈à Technologii nep≈ô√≠tele na zaƒç√°tku (" + Nastaven√≠TechAI + ") \nd) Bƒõ≈æ zp√°tky do menu");
+				System.out.println("NastavenÌ:\na)ZmÏÚ poËet z·kladen protivnÌka na zaË·tku (" + NastavenÌZ·kladnyAI + ") \nb)ZmÏÚ arm·du nep¯Ìtele na zaË·tku (" + NastavenÌArm·daAI + ") \nc)ZmÏÚ Technologii nep¯Ìtele na zaË·tku (" + NastavenÌTechAI + ") \nd) BÏû zp·tky do menu");
 				  String Typing = NewObj.nextLine();
 				  
 				  boolean JeA = Typing.equals(StartA);
@@ -586,17 +641,17 @@ public class VariablesClass {
 				  boolean JeC = Typing.equals(StartC);
 				  boolean JeD = Typing.equals(StartD);
 				  if (JeA == true) {
-					   Zmƒõ≈àZ√°kladny();
+					   ZmÏÚZ·kladny();
 				  } else if (JeB == true) {
-					  Zmƒõ≈àArm√°du();
+					  ZmÏÚArm·du();
 				  } else if(JeC == true) {
-					  Zmƒõ≈àTech();
+					  ZmÏÚTech();
 					  }
 					else if(JeD == true) {
 						StartChoice();
 				  } else {
-					  System.out.println("!!! ≈†patn√Ω vstup !!!");
-					  Nastaven√≠();
+					  System.out.println("!!! äpatn˝ vstup !!!");
+					  NastavenÌ();
 				  }
 				  NewObj.close();
 			  
@@ -605,7 +660,7 @@ public class VariablesClass {
 		  
 		  public void StartChoice() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Chcete zaƒç√≠t hru?\na)Zaƒç√≠t   b)Pravidla hry   c)Nastaven√≠");
+				System.out.println("Chcete zaËÌt hru?\na)ZaËÌt   b)Pravidla hry   c)NastavenÌ");
 				  String Typing = NewObj.nextLine();
 				  boolean JeA = Typing.equals(StartA);
 				  boolean JeB = Typing.equals(StartB);
@@ -616,9 +671,9 @@ public class VariablesClass {
 				  } else if (JeB == true) {
 					  Rules();
 				  } else if(JeC == true) {
-					  Nastaven√≠();
+					  NastavenÌ();
 				  } else {
-					  System.out.println("!!! ≈†patn√Ω vstup !!!");
+					  System.out.println("!!! äpatn˝ vstup !!!");
 					  StartChoice();
 				  }
 				  NewObj.close();
