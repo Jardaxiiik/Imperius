@@ -354,7 +354,7 @@ public class VariablesClass {
 						    };
 						    int num = Integer.parseInt(StringS);
 						   
-						  if (num < 0 && num <= 1000000) {
+						  if (num < 0 && num <= 1000) {
 							  System.out.println("!!! Špatný vstup !!!");
 							  SentSpyes();
 						  } else if (num > Armáda1) {
@@ -384,7 +384,7 @@ public class VariablesClass {
 						    };
 						    int num = Integer.parseInt(StringS);
 						   
-						  if (num < 0 && num <= 1000000) {
+						  if (num < 0 && num <= 1000) {
 							  System.out.println("!!! Špatný vstup !!!");
 							  SentSpyes();
 						  } else if (num > Armáda1) {
@@ -412,7 +412,7 @@ public class VariablesClass {
 							};
 							int num = Integer.parseInt(StringS);
 								
-  if (num < 0 && num <= 1000000) {
+  if (num < 0 && num <= 1000) {
 							  System.out.println("!!! "+ num +" vracíte se zpìt !!!");
 							  SentSpyes();
   } else if (num > Armáda1) {
@@ -570,7 +570,7 @@ public class VariablesClass {
 				    }
 				   int num = Integer.parseInt(StringS);
 				   
-				  if (num > 0 && num <= 1000000) {
+				  if (num > 0 && num <= 1000) {
 					   NastaveníZákladnyAI = num;
 					   Nastavení();
 				  } else {
@@ -594,7 +594,7 @@ public class VariablesClass {
 				    }
 				   int num = Integer.parseInt(StringS);
 				    
-				  if (num >= 0) {
+				  if (num >= 0 && num <= 1000) {
 					   NastaveníArmádaAI = num;
 					   Nastavení();
 				  } else {
@@ -619,7 +619,7 @@ public class VariablesClass {
 				    }
 				   int num = Integer.parseInt(StringS);
 
-				  if (num > 0 && num <= 1000000) {
+				  if (num > 0 && num <= 1000) {
 					   NastaveníTechAI = num;
 					   Nastavení();
 				  } else {
