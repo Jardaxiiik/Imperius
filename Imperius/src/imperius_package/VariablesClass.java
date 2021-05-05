@@ -12,10 +12,10 @@ public class VariablesClass {
 		public static String StartD;
 		public static int Zdroje1;
 		public static int Zdroje2;
-		public static int Základny1;
-		public static int Základny2;
-		public static int Armáda1;
-		public static int Armáda2;
+		public static int ZÃ¡kladny1;
+		public static int ZÃ¡kladny2;
+		public static int ArmÃ¡da1;
+		public static int ArmÃ¡da2;
 		public static int Technologie1;
 		public static int Technologie2;
 		public static int SpyBase1a;
@@ -27,19 +27,19 @@ public class VariablesClass {
 		public static int SpyTech1c;
 		public static int SpyArmy1a;
 		public static int SpyArmy1b;
-		public static int NastaveníZdrojeAI;
-		public static int NastaveníZákladnyAI;
-		public static int NastaveníArmádaAI;
-		public static int NastaveníTechAI;
-		public static int ArmádaÚtok1a;
-		public static int ArmádaÚtok1b;
-		public static int ArmádaÚtok1c;
-		public static int ArmádaÚtok2a;
-		public static int ArmádaÚtok2b;
-		public static int ArmádaÚtok2c;
-		public static int ArmádaUNepøítele1;
-		public static int ArmádaUNepøítele2;
-		public static int ÚtokDál1;
+		public static int NastavenÃ­ZdrojeAI;
+		public static int NastavenÃ­ZÃ¡kladnyAI;
+		public static int NastavenÃ­ArmÃ¡daAI;
+		public static int NastavenÃ­TechAI;
+		public static int ArmÃ¡daÃštok1a;
+		public static int ArmÃ¡daÃštok1b;
+		public static int ArmÃ¡daÃštok1c;
+		public static int ArmÃ¡daÃštok2a;
+		public static int ArmÃ¡daÃštok2b;
+		public static int ArmÃ¡daÃštok2c;
+		public static int ArmÃ¡daUNepÅ™Ã­tele1;
+		public static int ArmÃ¡daUNepÅ™Ã­tele2;
+		public static int ÃštokDÃ¡l1;
 		public static int ArmyGoBack1;
 		public static int NextTimeAI;
 		
@@ -59,13 +59,13 @@ public class VariablesClass {
 		  
 		  public void Rules() {
 			  try (Scanner NewObj = new Scanner(System.in)) {
-				System.out.println("Pravidla: \n- Na zaèátku máš jednu základnu. Základna ti dá kadé kolo 1 zdroj. \n- Za své zdroje si mùeš kadé kolo koupit armádu, technologii nebo další základnu.\n- Technologie zvyšuje vıkon tvé armády, hráè, kterı má 2 armády a 2 technologie má sílu rovnou 4, hráè kterı má 1 armádu a technologii 3 má sílu tøi, atd... \n- Kadé kolo mùete øíci své armádì, co má dìlat. Špionáš vám dá informace o nepøítely. Nepøítel zaèíná normálnì s jednou základnou jako vy (to se dá zmìnit v nastavení). \n- Úkol hry je znièit všechny nepøátelské základny, to se dá udìlat tak, e pošlete proti nepøítely svojí armádu - to ale trvá dvì kola.\n- Armáda normálnì hlídá vaše základny, take musíte pøemıšlet kdy s armádou vyrazíte na útok.\n a)Vra se zpìt do menu");
+				System.out.println("PRAVIDLA: \n- Na zaÄÃ¡tku mÃ¡Å¡ jednu zÃ¡kladnu. ZÃ¡kladna ti dÃ¡ kaÅ¾dÃ© kolo 1 zdroj. \n- Za svÃ© zdroje si mÅ¯Å¾eÅ¡ kaÅ¾dÃ© kolo koupit armÃ¡du, technologii nebo dalÅ¡Ã­ zÃ¡kladnu.\n- Technologie zvyÅ¡uje vÃ½kon tvÃ© armÃ¡dy, hrÃ¡Ä, kterÃ½ mÃ¡ 2 armÃ¡dy a 2 technologie mÃ¡ sÃ­lu rovnou 4, hrÃ¡Ä kterÃ½ mÃ¡ 1 armÃ¡du a technologii 3 mÃ¡ sÃ­lu tÅ™i, atd... \n- KaÅ¾dÃ© kolo mÅ¯Å¾ete Å™Ã­ci svÃ© armÃ¡dÄ›, co mÃ¡ dÄ›lat. Å pionÃ¡Å¡ vÃ¡m dÃ¡ informace o nepÅ™Ã­tely. NepÅ™Ã­tel zaÄÃ­nÃ¡ normÃ¡lnÄ› s jednou zÃ¡kladnou jako vy (to se dÃ¡ zmÄ›nit v nastavenÃ­). \n- Ãškol hry je zniÄit vÅ¡echny nepÅ™Ã¡telskÃ© zÃ¡kladny, to se dÃ¡ udÄ›lat tak, Å¾e poÅ¡lete proti nepÅ™Ã­tely svojÃ­ armÃ¡du - to ale trvÃ¡ dvÄ› kola.\n- ArmÃ¡da normÃ¡lnÄ› hlÃ­dÃ¡ vaÅ¡e zÃ¡kladny, takÅ¾e musÃ­te pÅ™emÃ½Å¡let kdy s armÃ¡dou vyrazÃ­te na Ãºtok.\n a)VraÅ¥ se zpÄ›t do menu");
 				  String Typing = NewObj.nextLine();
 				  boolean JeA = Typing.equals(StartA);
 				  if (JeA == true) {
 					  StartChoice();
 				  } else {
-					  System.out.println("!!! Špatnı vstup !!!");
+					  System.out.println("!!! Å patnÃ½ vstup !!!");
 					  Rules();
 				  }
 			}
@@ -74,13 +74,13 @@ public class VariablesClass {
 		  
 		  public void StartHry() {
 			Zdroje1 = 0;
-			Zdroje2 = 0 + NastaveníZdrojeAI;
-			Základny1 = 1;
-			Základny2 = 1 + NastaveníZákladnyAI;
-			Armáda1 = 0;
-			Armáda2 = 0 + NastaveníArmádaAI;
+			Zdroje2 = 0 + NastavenÃ­ZdrojeAI;
+			ZÃ¡kladny1 = 1;
+			ZÃ¡kladny2 = 1 + NastavenÃ­ZÃ¡kladnyAI;
+			ArmÃ¡da1 = 0;
+			ArmÃ¡da2 = 0 + NastavenÃ­ArmÃ¡daAI;
 			Technologie1 = 1;
-			Technologie2 = 1 + NastaveníTechAI;
+			Technologie2 = 1 + NastavenÃ­TechAI;
 			SpyBase1a = 0;
 			SpyBase1b = 0;
 			SpyTech1a =0;
@@ -88,41 +88,41 @@ public class VariablesClass {
 			SpyArmy1a =0;
 			SpyArmy1b =0;
 			TurnNum = 0;
-			ArmádaÚtok1a = 0;
-			ArmádaÚtok1b = 0;
-			ArmádaÚtok1c = 0;
-			ArmádaÚtok2a = 0;
-			ArmádaÚtok2b = 0;
-			ArmádaÚtok2c = 0;
-			ÚtokDál1 = 0;
-			ArmádaUNepøítele1 = 0;
-			ArmádaUNepøítele2 = 0;
+			ArmÃ¡daÃštok1a = 0;
+			ArmÃ¡daÃštok1b = 0;
+			ArmÃ¡daÃštok1c = 0;
+			ArmÃ¡daÃštok2a = 0;
+			ArmÃ¡daÃštok2b = 0;
+			ArmÃ¡daÃštok2c = 0;
+			ÃštokDÃ¡l1 = 0;
+			ArmÃ¡daUNepÅ™Ã­tele1 = 0;
+			ArmÃ¡daUNepÅ™Ã­tele2 = 0;
 			ArmyGoBack1 = 0;
 			NextTimeAI = 0;
 			
 			
-			System.out.println("----------------\nHRA ZAÈÍNÁ!\n");
-			AkceNaZaèátkuKola();
+			System.out.println("----------------\nHRA ZAÄŒÃNÃ!\n");
+			AkceNaZaÄÃ¡tkuKola();
 		  };
 		  
 		  public void SpyIter() {
 			  if (SpyBase1b > 0) {
-				  Armáda1 = Armáda1 + SpyBase1b;
-				  System.out.println("Tvùj špeh zjistil, e nepøítel má " + Základny2 + " Základen");
+				  ArmÃ¡da1 = ArmÃ¡da1 + SpyBase1b;
+				  System.out.println("TvÅ¯j Å¡peh zjistil, Å¾e nepÅ™Ã­tel mÃ¡ " + ZÃ¡kladny2 + " ZÃ¡kladen");
 			  };
 					SpyBase1b = SpyBase1a;
 					SpyBase1a = 0;
 					
 					if (SpyTech1b > 0) {
-						  Armáda1 = Armáda1 + SpyTech1b;
-						  System.out.println("Tvùj špeh zjistil, e nepøítel má " + Technologie2 + " Vıšku Technologie");
+						  ArmÃ¡da1 = ArmÃ¡da1 + SpyTech1b;
+						  System.out.println("TvÅ¯j Å¡peh zjistil, Å¾e nepÅ™Ã­tel mÃ¡ " + Technologie2 + " VÃ½Å¡ku Technologie");
 					  };
 					SpyTech1b = SpyTech1a;
 					SpyTech1a = 0;
 							
 					if (SpyArmy1b > 0) {
-						  Armáda1 = Armáda1 + SpyArmy1b;
-						  HUD.StartInfoLabel.setText("Tvùj špeh zjistil, e nepøítel má " + Armáda2 + " Velikou armádu");
+						  ArmÃ¡da1 = ArmÃ¡da1 + SpyArmy1b;
+						  HUD.StartInfoLabel.setText("TvÅ¯j Å¡peh zjistil, Å¾e nepÅ™Ã­tel mÃ¡ " + ArmÃ¡da2 + " Velikou armÃ¡du");
 					  };
 					SpyArmy1b = SpyArmy1a;
 					SpyArmy1a = 0;
@@ -132,195 +132,195 @@ public class VariablesClass {
 		  
 		  
 		  public void CheckForWin () {
-			  if (Základny1 == 0) {
-				  int armos = ArmádaUNepøítele2 + Armáda2 + ArmádaÚtok2a + ArmádaÚtok2b + ArmádaÚtok2c;
-				  System.out.println("Konec Hry!\n Prohrál si na plné èáøe\n\nTvùj nepøítel mìl "+ armos +" velikou celou armádu, mìl "+ Základny2 +" Základen, a jeho Technologie byla na úrovni " + Technologie2 + "\nTvùj nepøítel mìl " + Zdroje2 + " Zdrojù");
+			  if (ZÃ¡kladny1 == 0) {
+				  int armos = ArmÃ¡daUNepÅ™Ã­tele2 + ArmÃ¡da2 + ArmÃ¡daÃštok2a + ArmÃ¡daÃštok2b + ArmÃ¡daÃštok2c;
+				  System.out.println("Konec Hry!\n ProhrÃ¡l si na plnÃ© ÄÃ¡Å™e\n\nTvÅ¯j nepÅ™Ã­tel mÄ›l "+ armos +" velikou celou armÃ¡du, mÄ›l "+ ZÃ¡kladny2 +" ZÃ¡kladen, a jeho Technologie byla na Ãºrovni " + Technologie2 + "\nTvÅ¯j nepÅ™Ã­tel mÄ›l " + Zdroje2 + " ZdrojÅ¯");
 				  StartChoice();
 			  }
-			  if (Základny2 == 0) {
-				  int armos = ArmádaUNepøítele1 + Armáda1 + ArmádaÚtok1a + ArmádaÚtok1b + ArmádaÚtok1c;
-				  int armos2 = ArmádaUNepøítele2 + Armáda2 + ArmádaÚtok2a + ArmádaÚtok2b + ArmádaÚtok2c;
-				  System.out.println("Konec Hry!\n Vyhrál jsi na plné èáøe\n\nMìl jsi "+ armos +" velikou armádu, mìl jsi "+ Základny1 +" Základny, a tvoje technologie byla na úrovni " + Technologie1 + "\nTvùj nepøítel mìl "+ armos2 +" velikou celou armádu, mìl "+ Základny2 +" Základen, a jeho Technologie byla na úrovni " + Technologie2);
+			  if (ZÃ¡kladny2 == 0) {
+				  int armos = ArmÃ¡daUNepÅ™Ã­tele1 + ArmÃ¡da1 + ArmÃ¡daÃštok1a + ArmÃ¡daÃštok1b + ArmÃ¡daÃštok1c;
+				  int armos2 = ArmÃ¡daUNepÅ™Ã­tele2 + ArmÃ¡da2 + ArmÃ¡daÃštok2a + ArmÃ¡daÃštok2b + ArmÃ¡daÃštok2c;
+				  System.out.println("Konec Hry!\n VyhrÃ¡l jsi na plnÃ© ÄÃ¡Å™e\n\nMÄ›l jsi "+ armos +" velikou armÃ¡du, mÄ›l jsi "+ ZÃ¡kladny1 +" ZÃ¡kladny, a tvoje technologie byla na Ãºrovni " + Technologie1 + "\nTvÅ¯j nepÅ™Ã­tel mÄ›l "+ armos2 +" velikou celou armÃ¡du, mÄ›l "+ ZÃ¡kladny2 +" ZÃ¡kladen, a jeho Technologie byla na Ãºrovni " + Technologie2);
 				  StartChoice();
 			  }
 		  };
-		  public void AkceNaZaèátkuKola() {
+		  public void AkceNaZaÄÃ¡tkuKola() {
 			  
-			  if (ArmádaUNepøítele1 == 0) {
-				if (ArmádaÚtok1c >0) {
-					ÚtokDál1 = 1;
+			  if (ArmÃ¡daUNepÅ™Ã­tele1 == 0) {
+				if (ArmÃ¡daÃštok1c >0) {
+					ÃštokDÃ¡l1 = 1;
 				};
 			  };
 			  
-			  ArmádaUNepøítele1 = ArmádaÚtok1c + ArmádaUNepøítele1;
-			  ArmádaÚtok1c = ArmádaÚtok1b;
-			  ArmádaÚtok1b = ArmádaÚtok1a;
-			  ArmádaÚtok1a = 0;
-			  ArmádaUNepøítele2 =  ArmádaUNepøítele2 + ArmádaÚtok2c;
-			  ArmádaÚtok2c = ArmádaÚtok2b;
-			  ArmádaÚtok2b = ArmádaÚtok2a;
-			  ArmádaÚtok2a = 0;
-			  Armáda1 = Armáda1 + ArmyGoBack1;
+			  ArmÃ¡daUNepÅ™Ã­tele1 = ArmÃ¡daÃštok1c + ArmÃ¡daUNepÅ™Ã­tele1;
+			  ArmÃ¡daÃštok1c = ArmÃ¡daÃštok1b;
+			  ArmÃ¡daÃštok1b = ArmÃ¡daÃštok1a;
+			  ArmÃ¡daÃštok1a = 0;
+			  ArmÃ¡daUNepÅ™Ã­tele2 =  ArmÃ¡daUNepÅ™Ã­tele2 + ArmÃ¡daÃštok2c;
+			  ArmÃ¡daÃštok2c = ArmÃ¡daÃštok2b;
+			  ArmÃ¡daÃštok2b = ArmÃ¡daÃštok2a;
+			  ArmÃ¡daÃštok2a = 0;
+			  ArmÃ¡da1 = ArmÃ¡da1 + ArmyGoBack1;
 			  ArmyGoBack1 = 0;
 			  
-			  if (ArmádaUNepøítele1 > 0) {
-				  if (ÚtokDál1 == 1) {
-					  int x = ArmádaUNepøítele1*Technologie1;
-					  int y = Armáda2 * Technologie2;
+			  if (ArmÃ¡daUNepÅ™Ã­tele1 > 0) {
+				  if (ÃštokDÃ¡l1 == 1) {
+					  int x = ArmÃ¡daUNepÅ™Ã­tele1*Technologie1;
+					  int y = ArmÃ¡da2 * Technologie2;
 					  if (x>y) {
-						  Armáda2 = 0;
-						  int ztráty = ArmádaUNepøítele1; 
-						  ArmádaUNepøítele1 = Math.round((x - y)/ Technologie1);
-						  Základny2 = Základny2 - 1;
-						  int ZtrátyFull = ztráty - ArmádaUNepøítele1;
-						  System.out.println("Tvá Útoèná Armáda právì vyhrála boj a znièila nepøátelskou základnu. Ztráty: " + ZtrátyFull);
+						  ArmÃ¡da2 = 0;
+						  int ztrÃ¡ty = ArmÃ¡daUNepÅ™Ã­tele1; 
+						  ArmÃ¡daUNepÅ™Ã­tele1 = Math.round((x - y)/ Technologie1);
+						  ZÃ¡kladny2 = ZÃ¡kladny2 - 1;
+						  int ZtrÃ¡tyFull = ztrÃ¡ty - ArmÃ¡daUNepÅ™Ã­tele1;
+						  System.out.println("TvÃ¡ ÃštoÄnÃ¡ ArmÃ¡da prÃ¡vÄ› vyhrÃ¡la boj a zniÄila nepÅ™Ã¡telskou zÃ¡kladnu. ZtrÃ¡ty: " + ZtrÃ¡tyFull);
 					  } else {
-						  ArmádaUNepøítele1 = 0;
-						  Armáda2 = Math.round((y - x)/Technologie2);
-						  System.out.println("Tvá Útoèná Armáda právì prohrála boj o nepøátelskou základnu a byla znièena");
+						  ArmÃ¡daUNepÅ™Ã­tele1 = 0;
+						  ArmÃ¡da2 = Math.round((y - x)/Technologie2);
+						  System.out.println("TvÃ¡ ÃštoÄnÃ¡ ArmÃ¡da prÃ¡vÄ› prohrÃ¡la boj o nepÅ™Ã¡telskou zÃ¡kladnu a byla zniÄena");
 					  };
 				  };
 			  };
-			 if (ArmádaUNepøítele2 > 0) {
-					  int x = Armáda1*Technologie1;
-					  int y = ArmádaUNepøítele2 * Technologie2;
+			 if (ArmÃ¡daUNepÅ™Ã­tele2 > 0) {
+					  int x = ArmÃ¡da1*Technologie1;
+					  int y = ArmÃ¡daUNepÅ™Ã­tele2 * Technologie2;
 					  if (x>=y) {
-						  ArmádaUNepøítele2 = 0;
-						  int ztráty = Armáda1; 
-						  Armáda1 = Math.round((x - y)/ Technologie1);
-						  int ZtrátyFull = ztráty - Armáda1;
-						  System.out.println("Tvá Obranná Armáda právì úspìšnì odrazila nepøátelskı útok! Tvé Ztráty: " + ZtrátyFull);
+						  ArmÃ¡daUNepÅ™Ã­tele2 = 0;
+						  int ztrÃ¡ty = ArmÃ¡da1; 
+						  ArmÃ¡da1 = Math.round((x - y)/ Technologie1);
+						  int ZtrÃ¡tyFull = ztrÃ¡ty - ArmÃ¡da1;
+						  System.out.println("TvÃ¡ ObrannÃ¡ ArmÃ¡da prÃ¡vÄ› ÃºspÄ›Å¡nÄ› odrazila nepÅ™Ã¡telskÃ½ Ãºtok! TvÃ© ZtrÃ¡ty: " + ZtrÃ¡tyFull);
 					  } else {
-						  Armáda1 = 0;
-						  Základny1 = Základny1 - 1;
-						  ArmádaUNepøítele2 = Math.round((y - x)/Technologie2);
-						  System.out.println("Tvá Obranná Armáda právì prohrála boj o tvoji základnu. Základna byla znièena a tvoje obrana té.");
+						  ArmÃ¡da1 = 0;
+						  ZÃ¡kladny1 = ZÃ¡kladny1 - 1;
+						  ArmÃ¡daUNepÅ™Ã­tele2 = Math.round((y - x)/Technologie2);
+						  System.out.println("TvÃ¡ ObrannÃ¡ ArmÃ¡da prÃ¡vÄ› prohrÃ¡la boj o tvoji zÃ¡kladnu. ZÃ¡kladna byla zniÄena a tvoje obrana tÃ©Å¾.");
 				};
 			};
 				CheckForWin();
 				
-				Zdroje1 = Základny1 + Zdroje1;
-				Zdroje2 = Základny2 + Zdroje2;
+				Zdroje1 = ZÃ¡kladny1 + Zdroje1;
+				Zdroje2 = ZÃ¡kladny2 + Zdroje2;
 				
 				SpyIter();
 				TurnNum = TurnNum + 1;
-				System.out.println("---------- \nZaèíná "+ TurnNum + " Kolo");
-				Nákup();
+				System.out.println("---------- \nZaÄÃ­nÃ¡ "+ TurnNum + " Kolo");
+				NÃ¡kup();
 			  };
 			  
-			  public void NákupArmády() {
+			  public void NÃ¡kupArmÃ¡dy() {
 				  Scanner NewObj = new Scanner(System.in);
-					System.out.println("Tvé zdroje: " + Zdroje1 + "\n Pokud nechceš kupovat, zadej èíslo 0 \nNapiš poèet Obranné Armády, co chceš koupit (1 Zdroj = 1 Armáda)");
+					System.out.println("TvÃ© zdroje: " + Zdroje1 + "\n Pokud nechceÅ¡ kupovat, zadej ÄÃ­slo 0 \nNapiÅ¡ poÄet ObrannÃ© ArmÃ¡dy, co chceÅ¡ koupit (1 Zdroj = 1 ArmÃ¡da)");
 					  String StringS = NewObj.nextLine();
 					    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 					    if(isNumeric == false) {
-					    	System.out.println("!!! "+ StringS +" vracíte se zpìt !!!");
-					    	Nákup();
+					    	System.out.println("!!! "+ StringS +" vracÃ­te se zpÄ›t !!!");
+					    	NÃ¡kup();
 					    };
 					    int num = Integer.parseInt(StringS);
 					    
 					  if (num > Zdroje1) {
-						  System.out.println("!!! Málo Zdrojù !!!");
-						  Nákup();
+						  System.out.println("!!! MÃ¡lo ZdrojÅ¯ !!!");
+						  NÃ¡kup();
 					  } else if (num < 1){
-						  System.out.println("!!! Chybné èíslo !!!");
-						  Nákup();
+						  System.out.println("!!! ChybnÃ© ÄÃ­slo !!!");
+						  NÃ¡kup();
 						  
 					  } else {
-						Armáda1 = Armáda1 + num;
+						ArmÃ¡da1 = ArmÃ¡da1 + num;
 						Zdroje1 = Zdroje1 - num;
-						Nákup();
+						NÃ¡kup();
 					  }
 					  NewObj.close();
 			  };
-			  public void NákupZákladny() {
-				  int Cost = Základny1*2;
+			  public void NÃ¡kupZÃ¡kladny() {
+				  int Cost = ZÃ¡kladny1*2;
 		            int num = 1;
 			        int k = num*Cost;
 				  if (k > Zdroje1) {
-					  System.out.println("!!! Málo Zdrojù !!!");
-					  Nákup();
+					  System.out.println("!!! MÃ¡lo ZdrojÅ¯ !!!");
+					  NÃ¡kup();
 				  } else if (num < 1){
-					  System.out.println("!!! Chybné èíslo !!!");
-					  Nákup();
+					  System.out.println("!!! ChybnÃ© ÄÃ­slo !!!");
+					  NÃ¡kup();
 					  
 				  } else {
 					Zdroje1 = Zdroje1 - num*Cost;
-					Základny1 = Základny1 + num;
+					ZÃ¡kladny1 = ZÃ¡kladny1 + num;
 					
-					Nákup();
+					NÃ¡kup();
 				  };
 			  };
-			  public void NákupTechnologie() {
+			  public void NÃ¡kupTechnologie() {
 				  Scanner NewObj = new Scanner(System.in);
-					System.out.println("Tvé zdroje: " + Zdroje1 + "\nTvé technologie: "+ Technologie1 +"\n Pokud nechceš kupovat, zadej èíslo 0\n Napiš poèet Technologii, co chceš koupit (1 technologie = 2 Zdroje) ");
+					System.out.println("TvÃ© zdroje: " + Zdroje1 + "\nTvÃ© technologie: "+ Technologie1 +"\n Pokud nechceÅ¡ kupovat, zadej ÄÃ­slo 0\n NapiÅ¡ poÄet Technologii, co chceÅ¡ koupit (1 technologie = 2 Zdroje) ");
 					  String StringS = NewObj.nextLine();
 					    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 					    if(isNumeric == false) {
-					    	System.out.println("!!! "+ StringS +" vracíte se zpìt !!!");
-					    	Nákup();
+					    	System.out.println("!!! "+ StringS +" vracÃ­te se zpÄ›t !!!");
+					    	NÃ¡kup();
 					    };
 					    int num = Integer.parseInt(StringS);
 					    int Cost = num*2;
 					  if (Cost > Zdroje1) {
-						  System.out.println("!!! Málo Zdrojù !!!");
-						  Nákup();
+						  System.out.println("!!! MÃ¡lo ZdrojÅ¯ !!!");
+						  NÃ¡kup();
 					  } else if (num < 1){
-						  System.out.println("!!! Chybné èíslo !!!");
-						  Nákup();
+						  System.out.println("!!! ChybnÃ© ÄÃ­slo !!!");
+						  NÃ¡kup();
 						  
 					  } else {
 						Technologie1 = Technologie1 + num;
 						Zdroje1 = Zdroje1 - Cost;
-						Nákup();
+						NÃ¡kup();
 					  }
 				NewObj.close();
 			  };
 			  
-			  public void Nákup() {
+			  public void NÃ¡kup() {
 				 Scanner NewObj = new Scanner(System.in);
-					int Cost = Základny1*2;
-					  System.out.println("\n- Fáze Nákupù \nZdroje: "+ Zdroje1 +"     \na) Nákup Armády (Tvá armáda:"+ Armáda1 +") \nb) Nákup jedné základny za "+ Cost +" Zdrojù (Tvé základny: "+ Základny1 +") \nc) Nákup technologie (tvá technologie: "+ Technologie1 +")\nd) u ádné nákupy");
+					int Cost = ZÃ¡kladny1*2;
+					  System.out.println("\n- FÃ¡ze NÃ¡kupÅ¯ \nZdroje: "+ Zdroje1 +"     \na) NÃ¡kup ArmÃ¡dy (TvÃ¡ armÃ¡da:"+ ArmÃ¡da1 +") \nb) NÃ¡kup jednÃ© zÃ¡kladny za "+ Cost +" ZdrojÅ¯ (TvÃ© zÃ¡kladny: "+ ZÃ¡kladny1 +") \nc) NÃ¡kup technologie (tvÃ¡ technologie: "+ Technologie1 +")\nd) uÅ¾ Å¾Ã¡dnÃ© nÃ¡kupy");
 					  String Typing = NewObj.nextLine();
 					  boolean JeA = Typing.equals(StartA);
 					  boolean JeB = Typing.equals(StartB);
 					  boolean JeC = Typing.equals(StartC);
 					  boolean JeD = Typing.equals(StartD);
 					  if (JeA == true) {
-						  NákupArmády();
+						  NÃ¡kupArmÃ¡dy();
 					  } else if (JeB == true) {
-						  NákupZákladny();
+						  NÃ¡kupZÃ¡kladny();
 					  } else if(JeC == true) {
-						  NákupTechnologie();
+						  NÃ¡kupTechnologie();
 					  } else if(JeD == true) {
 							 ArmyMovement();	  
 					  } else {
-						  System.out.println("!!! Špatnı vstup !!!");
-						  Nákup();
+						  System.out.println("!!! Å patnÃ½ vstup !!!");
+						  NÃ¡kup();
 					  }
 					  NewObj.close();
 			  };
-			  public void VyšliArmádu() {
+			  public void VyÅ¡liArmÃ¡du() {
 				  Scanner NewObj = new Scanner(System.in);
-					System.out.println("Tvá Obranná Armáda: " + Armáda1 + " \n Pokud nechceš posílat nic, zadej èíslo 0 \nNapiš poèet Obranné Armády, co chceš poslat k nepøíteli (armáda se tam obìví a za 2 kola) ");
+					System.out.println("TvÃ¡ ObrannÃ¡ ArmÃ¡da: " + ArmÃ¡da1 + " \n Pokud nechceÅ¡ posÃ­lat nic, zadej ÄÃ­slo 0 \nNapiÅ¡ poÄet ObrannÃ© ArmÃ¡dy, co chceÅ¡ poslat k nepÅ™Ã­teli (armÃ¡da se tam obÄ›vÃ­ aÅ¾ za 2 kola) ");
 					  String StringS = NewObj.nextLine();
 					    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 					    if(isNumeric == false) {
-					    	System.out.println("!!! "+ StringS +" vracíte se zpìt !!!");
+					    	System.out.println("!!! "+ StringS +" vracÃ­te se zpÄ›t !!!");
 					    	ArmyMovement();
 					    };
 					    int num = Integer.parseInt(StringS);
 					    
 					  if (num < 1) {
-						   System.out.println("!!! Špatnı vstup !!!");
+						   System.out.println("!!! Å patnÃ½ vstup !!!");
 							  ArmyMovement();
-					  } else if (num > Armáda1) {
-						  System.out.println("!!! Nedostatek armády !!!");
+					  } else if (num > ArmÃ¡da1) {
+						  System.out.println("!!! Nedostatek armÃ¡dy !!!");
 						  ArmyMovement();
 					  } else {
-						  System.out.println("Vyslal jsi "+ num + "Armády na útok");
-						  ArmádaÚtok1a = ArmádaÚtok1a + num;
-						  Armáda1 = Armáda1 - num;
+						  System.out.println("Vyslal jsi "+ num + "ArmÃ¡dy na Ãºtok");
+						  ArmÃ¡daÃštok1a = ArmÃ¡daÃštok1a + num;
+						  ArmÃ¡da1 = ArmÃ¡da1 - num;
 						  ArmyMovement();
 					  }
 					  NewObj.close();
@@ -328,24 +328,24 @@ public class VariablesClass {
 			  
 			  	public void SpyBaseSent() {
 			  		Scanner NewObj = new Scanner(System.in);
-						System.out.println("Tvá Obranná Armáda: " + Armáda1 + "\nNapiš poèet špionù Základen, kolik jich chceš vyslat (1 Špion = 1 Armáda)");
+						System.out.println("TvÃ¡ ObrannÃ¡ ArmÃ¡da: " + ArmÃ¡da1 + "\nNapiÅ¡ poÄet Å¡pionÅ¯ ZÃ¡kladen, kolik jich chceÅ¡ vyslat (1 Å pion = 1 ArmÃ¡da)");
 						  String StringS = NewObj.nextLine();
 						    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 						    if(isNumeric == false) {
-						    	System.out.println("!!! "+ StringS +" vracíte se zpìt !!!");
+						    	System.out.println("!!! "+ StringS +" vracÃ­te se zpÄ›t !!!");
 						    	SentSpyes();
 						    };
 						    int num = Integer.parseInt(StringS);
 						   
 						  if (num < 0) {
-							  System.out.println("!!! Špatnı vstup !!!");
+							  System.out.println("!!! Å patnÃ½ vstup !!!");
 							  SentSpyes();
-						  } else if (num > Armáda1) {
-							  System.out.println("!!! Moc vysoké èíslo !!!");
+						  } else if (num > ArmÃ¡da1) {
+							  System.out.println("!!! Moc vysokÃ© ÄÃ­slo !!!");
 							  SpyBaseSent();
 						  } else {
 							  SpyBase1a = SpyBase1a + 1;
-							  Armáda1 = Armáda1 - num;
+							  ArmÃ¡da1 = ArmÃ¡da1 - num;
 							  SentSpyes();
 								  }
 						  NewObj.close();
@@ -354,48 +354,48 @@ public class VariablesClass {
 			  		};
 			  	public void SpyTechSent() {
 			  		Scanner NewObj = new Scanner(System.in);
-						System.out.println("Tvá Obranná Armáda: " + Armáda1 + " \nNapiš poèet špionù Technologií, kolik jich chceš vyslat (1 Špion = 1 Armáda)");
+						System.out.println("TvÃ¡ ObrannÃ¡ ArmÃ¡da: " + ArmÃ¡da1 + " \nNapiÅ¡ poÄet Å¡pionÅ¯ TechnologiÃ­, kolik jich chceÅ¡ vyslat (1 Å pion = 1 ArmÃ¡da)");
 						  String StringS = NewObj.nextLine();
 						    boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 						    if(isNumeric == false) {
-						    	System.out.println("!!! "+ StringS +" vracíte se zpìt !!!");
+						    	System.out.println("!!! "+ StringS +" vracÃ­te se zpÄ›t !!!");
 						    	SentSpyes();
 						    };
 						    int num = Integer.parseInt(StringS);
 						   
 						  if (num < 0) {
-							  System.out.println("!!! Špatnı vstup !!!");
+							  System.out.println("!!! Å patnÃ½ vstup !!!");
 							  SentSpyes();
-						  } else if (num > Armáda1) {
-							  System.out.println("!!! Moc vysoké èíslo !!!");
+						  } else if (num > ArmÃ¡da1) {
+							  System.out.println("!!! Moc vysokÃ© ÄÃ­slo !!!");
 							  SpyTechSent();
 						  } else {
 							  SpyTech1a = SpyTech1a + 1;
-							  Armáda1 = Armáda1 - num;
+							  ArmÃ¡da1 = ArmÃ¡da1 - num;
 							  SentSpyes();
 								  }
 						  NewObj.close();
 			  };
 			  	public void SpyArmySent() {
 			  			Scanner NewObj = new Scanner(System.in);
-							System.out.println("Tvá Obranná Armáda: " + Armáda1 + " \nNapiš poèet špionù Armád, kolik jich chceš vyslat (1 Špion = 1 Armáda)");
+							System.out.println("TvÃ¡ ObrannÃ¡ ArmÃ¡da: " + ArmÃ¡da1 + " \nNapiÅ¡ poÄet Å¡pionÅ¯ ArmÃ¡d, kolik jich chceÅ¡ vyslat (1 Å pion = 1 ArmÃ¡da)");
 							String StringS = NewObj.nextLine();
 							boolean isNumeric = StringS.chars().allMatch( Character::isDigit );
 							if(isNumeric == false) {
-								System.out.println("!!! "+ StringS +" vracíte se zpìt !!!");
+								System.out.println("!!! "+ StringS +" vracÃ­te se zpÄ›t !!!");
 								SentSpyes();
 							};
 							int num = Integer.parseInt(StringS);
 								
   if (num < 0) {
-							  System.out.println("!!! "+ num +" vracíte se zpìt !!!");
+							  System.out.println("!!! "+ num +" vracÃ­te se zpÄ›t !!!");
 							  SentSpyes();
-  } else if (num > Armáda1) {
-							  System.out.println("!!! Nedostatek Armády !!!");
+  } else if (num > ArmÃ¡da1) {
+							  System.out.println("!!! Nedostatek ArmÃ¡dy !!!");
 							  SpyTechSent();
   } else {
 							  SpyArmy1a = SpyArmy1a + 1;
-							  Armáda1 = Armáda1 - num;
+							  ArmÃ¡da1 = ArmÃ¡da1 - num;
 							  SentSpyes();
 								  }
   NewObj.close();
@@ -403,10 +403,10 @@ public class VariablesClass {
 			  
 			  public void SentSpyes() {
 				  Scanner NewObj = new Scanner(System.in);
-					int SpyesZákladny = SpyBase1a + SpyBase1b;
+					int SpyesZÃ¡kladny = SpyBase1a + SpyBase1b;
 					 int SpyesTech = SpyTech1a + SpyTech1b;
 					 int SpyesArmy = SpyArmy1a + SpyArmy1b;
-					  System.out.println("\n- Špioni \nŠpioni Základen: " + SpyesZákladny + " \nŠpioni Technologií: " + SpyesTech + " \nŠpioni nepøátelské Armády: "+ SpyesArmy +" \na) Vyšli Špiony Základen \nb) Vyšli špiony technologií \nc) Vyšli špiony Armád \nd) Vra se zpátky");
+					  System.out.println("\n- Å pioni \nÅ pioni ZÃ¡kladen: " + SpyesZÃ¡kladny + " \nÅ pioni TechnologiÃ­: " + SpyesTech + " \nÅ pioni nepÅ™Ã¡telskÃ© ArmÃ¡dy: "+ SpyesArmy +" \na) VyÅ¡li Å piony ZÃ¡kladen \nb) VyÅ¡li Å¡piony technologiÃ­ \nc) VyÅ¡li Å¡piony ArmÃ¡d \nd) VraÅ¥ se zpÃ¡tky");
 					  String Typing = NewObj.nextLine();
 					  boolean JeA = Typing.equals(StartA);
 					  boolean JeB = Typing.equals(StartB);
@@ -421,7 +421,7 @@ public class VariablesClass {
 					  }	else if(JeD == true) {
 							ArmyMovement();
 					  } else {
-						  System.out.println("!!! Špatnı vstup !!!");
+						  System.out.println("!!! Å patnÃ½ vstup !!!");
 						  SentSpyes();
 					  }
 					  NewObj.close();
@@ -429,52 +429,52 @@ public class VariablesClass {
 			  
 		 public void ArmyMovement() {
 			 Scanner NewObj = new Scanner(System.in);
-				int Armádak = ArmádaÚtok1a + ArmádaÚtok1b + ArmádaÚtok1c;
-				  System.out.println("\n- Pohyb Armády \nObranná Armáda doma: "+ Armáda1 +"\nÚtoèná Armáda u nepøítele: "+ ArmádaUNepøítele1 +"\nÚtoèná Armáda míøící k nepøítely: "+ Armádak +" \na) pošli Obrannou Armádu k nepøítely \nb) Vyšli špiony \nc) Nechceš nic dìlat");
+				int ArmÃ¡dak = ArmÃ¡daÃštok1a + ArmÃ¡daÃštok1b + ArmÃ¡daÃštok1c;
+				  System.out.println("\n- Pohyb ArmÃ¡dy \nObrannÃ¡ ArmÃ¡da doma: "+ ArmÃ¡da1 +"\nÃštoÄnÃ¡ ArmÃ¡da u nepÅ™Ã­tele: "+ ArmÃ¡daUNepÅ™Ã­tele1 +"\nÃštoÄnÃ¡ ArmÃ¡da mÃ­Å™Ã­cÃ­ k nepÅ™Ã­tely: "+ ArmÃ¡dak +" \na) poÅ¡li Obrannou ArmÃ¡du k nepÅ™Ã­tely \nb) VyÅ¡li Å¡piony \nc) NechceÅ¡ nic dÄ›lat");
 				  String Typing = NewObj.nextLine();
 				  boolean JeA = Typing.equals(StartA);
 				  boolean JeB = Typing.equals(StartB);
 				  boolean JeC = Typing.equals(StartC);
 				  if (JeA == true) {
-					  VyšliArmádu();
+					  VyÅ¡liArmÃ¡du();
 				  } else if (JeB == true) {
 					  SentSpyes();
 				  } else if(JeC == true) {
 					  ArmyInEnemyBase();
 				  } else {
-					  System.out.println("!!! Špatnı vstup !!!");
+					  System.out.println("!!! Å patnÃ½ vstup !!!");
 					  ArmyMovement();
 				  }
 				  NewObj.close();
 		 };
 		 
 		  public void ArmyInEnemyBase() {
-			  int armada = ArmádaUNepøítele1 + ArmádaÚtok1a + ArmádaÚtok1b; 
-			  if (ArmádaUNepøítele1 > armada) {
+			  int armada = ArmÃ¡daUNepÅ™Ã­tele1 + ArmÃ¡daÃštok1a + ArmÃ¡daÃštok1b; 
+			  if (ArmÃ¡daUNepÅ™Ã­tele1 > armada) {
 				  	Scanner NewObj = new Scanner(System.in);
-					 int Armádak = ArmádaÚtok1a + ArmádaÚtok1b + ArmádaÚtok1c;
-					  System.out.println("\n-  Útoèná Armáda U nepøítele: "+ ArmádaUNepøítele1 +"\n- Útoèná Armáda míøící k nepøítely: "+ Armádak +" \na) Pošli všechnu Armádu Zpátky Domù \nb) Zaútoè na další základnu \nc) nechceš nic dìlat");
+					 int ArmÃ¡dak = ArmÃ¡daÃštok1a + ArmÃ¡daÃštok1b + ArmÃ¡daÃštok1c;
+					  System.out.println("\n-  ÃštoÄnÃ¡ ArmÃ¡da U nepÅ™Ã­tele: "+ ArmÃ¡daUNepÅ™Ã­tele1 +"\n- ÃštoÄnÃ¡ ArmÃ¡da mÃ­Å™Ã­cÃ­ k nepÅ™Ã­tely: "+ ArmÃ¡dak +" \na) PoÅ¡li vÅ¡echnu ArmÃ¡du ZpÃ¡tky DomÅ¯ \nb) ZaÃºtoÄ na dalÅ¡Ã­ zÃ¡kladnu \nc) nechceÅ¡ nic dÄ›lat");
 					  String Typing = NewObj.nextLine();
 					  boolean JeA = Typing.equals(StartA);
 					  boolean JeB = Typing.equals(StartB);
 					  boolean JeC = Typing.equals(StartC);
 					  
 					  if (JeA == true) {
-						  ArmyGoBack1 = Armádak + ArmádaUNepøítele1;
-						  ArmádaUNepøítele1 = 0;
-						  ArmádaÚtok1a = 0;
-						  ArmádaÚtok1b = 0;
+						  ArmyGoBack1 = ArmÃ¡dak + ArmÃ¡daUNepÅ™Ã­tele1;
+						  ArmÃ¡daUNepÅ™Ã­tele1 = 0;
+						  ArmÃ¡daÃštok1a = 0;
+						  ArmÃ¡daÃštok1b = 0;
 						  
-						  ÚtokDál1 = 0;
+						  ÃštokDÃ¡l1 = 0;
 						  AIPlay();
 					  } else if (JeB == true) {
-						  ÚtokDál1 = 1;
+						  ÃštokDÃ¡l1 = 1;
 						  AIPlay();
 					  } else if(JeC == true) {
-						  ÚtokDál1 = 0;
+						  ÃštokDÃ¡l1 = 0;
 						  AIPlay();
 					  } else {
-						  System.out.println("Špatnì");
+						  System.out.println("Å patnÄ›");
 						  ArmyInEnemyBase();
 					  };
 					  NewObj.close();
@@ -494,18 +494,18 @@ public class VariablesClass {
 
 
 		public void AIPlay() {
-			int Cost = Základny2*2;
-			int roundedNumber = (int) ((int) (Základny2-1)*0.5);
-			if (ArmádaUNepøítele1 == 0) {
+			int Cost = ZÃ¡kladny2*2;
+			int roundedNumber = (int) ((int) (ZÃ¡kladny2-1)*0.5);
+			if (ArmÃ¡daUNepÅ™Ã­tele1 == 0) {
 				if ( Zdroje2 >= Cost) {
 					Zdroje2 = Zdroje2 - Cost;
-					Základny2 = Základny2 + 1;
+					ZÃ¡kladny2 = ZÃ¡kladny2 + 1;
 				} else {
 				int Z = getRandomNumberInRange(roundedNumber, Zdroje2);
 				int a = getRandomNumberInRange(1, 10);
 				Zdroje2 = Zdroje2 - Z;
 				if (a >= 4) {
-					Armáda2 = Armáda2 + Z;
+					ArmÃ¡da2 = ArmÃ¡da2 + Z;
 						
 				} else {
 					Technologie2 = Technologie2 + Math.round(Z/2);
@@ -515,7 +515,7 @@ public class VariablesClass {
 				} else {
 					int Z = getRandomNumberInRange(roundedNumber, Zdroje2);
 					Zdroje2 = Zdroje2 - Z;
-					Armáda2 = Armáda2 + Z;
+					ArmÃ¡da2 = ArmÃ¡da2 + Z;
 					
 			};
 			AIMove();
@@ -523,62 +523,62 @@ public class VariablesClass {
 
 		public void AIMove() {
 			int a = getRandomNumberInRange(1, 5);
-			if (a == 5 && ArmádaUNepøítele1 == 0) {
-				ArmádaÚtok2a = Armáda2;
-				Armáda2 = 0;
+			if (a == 5 && ArmÃ¡daUNepÅ™Ã­tele1 == 0) {
+				ArmÃ¡daÃštok2a = ArmÃ¡da2;
+				ArmÃ¡da2 = 0;
 			};
-			AkceNaZaèátkuKola();
+			AkceNaZaÄÃ¡tkuKola();
 		};
 		  
-		  public void ZmìòZákladny() {
+		  public void ZmÄ›ÅˆZÃ¡kladny() {
 			 Scanner NewObj = new Scanner(System.in);
-				System.out.println("Napiš poèet základen, o kolik by mìl mít nepøítel víc, ne vy na zaèátku hry (" + NastaveníZákladnyAI + ")");
+				System.out.println("NapiÅ¡ poÄet zÃ¡kladen, o kolik by mÄ›l mÃ­t nepÅ™Ã­tel vÃ­c, neÅ¾ vy na zaÄÃ¡tku hry (" + NastavenÃ­ZÃ¡kladnyAI + ")");
 				  int num = NewObj.nextInt();
 				   
 				  if (num >= 0) {
-					   NastaveníZákladnyAI = num;
-					   Nastavení();
+					   NastavenÃ­ZÃ¡kladnyAI = num;
+					   NastavenÃ­();
 				  } else {
-					  System.out.println("!!! Špatnı vstup !!!");
-					  Nastavení();
+					  System.out.println("!!! Å patnÃ½ vstup !!!");
+					  NastavenÃ­();
 				  }
 				  NewObj.close();
 		  };
-		  public void ZmìòArmádu() {
+		  public void ZmÄ›ÅˆArmÃ¡du() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Napiš poèet základen, o kolik by mìl mít nepøítel víc, ne vy na zaèátku hry (" + NastaveníArmádaAI + ")");
+				System.out.println("NapiÅ¡ poÄet zÃ¡kladen, o kolik by mÄ›l mÃ­t nepÅ™Ã­tel vÃ­c, neÅ¾ vy na zaÄÃ¡tku hry (" + NastavenÃ­ArmÃ¡daAI + ")");
 				  int num = NewObj.nextInt();
 				    
 				  if (num >= 0) {
-					   NastaveníArmádaAI = num;
-					   Nastavení();
+					   NastavenÃ­ArmÃ¡daAI = num;
+					   NastavenÃ­();
 				  } else {
-					  System.out.println("!!! Špatnı vstup !!!");
-					  Nastavení();
+					  System.out.println("!!! Å patnÃ½ vstup !!!");
+					  NastavenÃ­();
 				  }
 				  NewObj.close();
 			  
 		  };
-		  public void ZmìòTech() {
+		  public void ZmÄ›ÅˆTech() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Napiš vıši technologie, o kterou bude mít nepøítel víc ne vy na zaèátku hry (" + NastaveníTechAI + ")");
+				System.out.println("NapiÅ¡ vÃ½Å¡i technologie, o kterou bude mÃ­t nepÅ™Ã­tel vÃ­c neÅ¾ vy na zaÄÃ¡tku hry (" + NastavenÃ­TechAI + ")");
 				  int num = NewObj.nextInt();
 				    
 				  if (num >= 0) {
-					   NastaveníTechAI = num;
-					   Nastavení();
+					   NastavenÃ­TechAI = num;
+					   NastavenÃ­();
 				  } else {
-					  System.out.println("!!! Špatnı vstup !!!");
-					  ZmìòTech();
+					  System.out.println("!!! Å patnÃ½ vstup !!!");
+					  ZmÄ›ÅˆTech();
 				  }
 				  NewObj.close();
 			};
 			  
 
 		  
-		  public void Nastavení() {
+		  public void NastavenÃ­() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Nastavení:\na)Zmìò poèet základen protivníka na zaèátku (" + NastaveníZákladnyAI + ") \nb)Zmìò armádu nepøítele na zaèátku (" + NastaveníArmádaAI + ") \nc)Zmìò Technologii nepøítele na zaèátku (" + NastaveníTechAI + ") \nd) Bì zpátky do menu");
+				System.out.println("NastavenÃ­:\na)ZmÄ›Åˆ poÄet zÃ¡kladen protivnÃ­ka na zaÄÃ¡tku (" + NastavenÃ­ZÃ¡kladnyAI + ") \nb)ZmÄ›Åˆ armÃ¡du nepÅ™Ã­tele na zaÄÃ¡tku (" + NastavenÃ­ArmÃ¡daAI + ") \nc)ZmÄ›Åˆ Technologii nepÅ™Ã­tele na zaÄÃ¡tku (" + NastavenÃ­TechAI + ") \nd) BÄ›Å¾ zpÃ¡tky do menu");
 				  String Typing = NewObj.nextLine();
 				  
 				  boolean JeA = Typing.equals(StartA);
@@ -586,17 +586,17 @@ public class VariablesClass {
 				  boolean JeC = Typing.equals(StartC);
 				  boolean JeD = Typing.equals(StartD);
 				  if (JeA == true) {
-					   ZmìòZákladny();
+					   ZmÄ›ÅˆZÃ¡kladny();
 				  } else if (JeB == true) {
-					  ZmìòArmádu();
+					  ZmÄ›ÅˆArmÃ¡du();
 				  } else if(JeC == true) {
-					  ZmìòTech();
+					  ZmÄ›ÅˆTech();
 					  }
 					else if(JeD == true) {
 						StartChoice();
 				  } else {
-					  System.out.println("!!! Špatnı vstup !!!");
-					  Nastavení();
+					  System.out.println("!!! Å patnÃ½ vstup !!!");
+					  NastavenÃ­();
 				  }
 				  NewObj.close();
 			  
@@ -605,7 +605,7 @@ public class VariablesClass {
 		  
 		  public void StartChoice() {
 			  Scanner NewObj = new Scanner(System.in);
-				System.out.println("Chcete zaèít hru?\na)Zaèít   b)Pravidla hry   c)Nastavení");
+				System.out.println("Chcete zaÄÃ­t hru?\na)ZaÄÃ­t   b)Pravidla hry   c)NastavenÃ­");
 				  String Typing = NewObj.nextLine();
 				  boolean JeA = Typing.equals(StartA);
 				  boolean JeB = Typing.equals(StartB);
@@ -616,9 +616,9 @@ public class VariablesClass {
 				  } else if (JeB == true) {
 					  Rules();
 				  } else if(JeC == true) {
-					  Nastavení();
+					  NastavenÃ­();
 				  } else {
-					  System.out.println("!!! Špatnı vstup !!!");
+					  System.out.println("!!! Å patnÃ½ vstup !!!");
 					  StartChoice();
 				  }
 				  NewObj.close();
